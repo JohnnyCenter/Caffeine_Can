@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class testPlayercontroller : MonoBehaviour
 {
-    public float moveSpeed;
-    public float jumpForce;
+    public float moveSpeed; 
+    public float jumpForce; 
 
     private Rigidbody2D myRigidbody;
 
@@ -14,10 +14,10 @@ public class testPlayercontroller : MonoBehaviour
     public bool onPlatform = false;
 
     public bool isSliding = false;
+
     private void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
-       
     }
 
     private void Update()
@@ -26,6 +26,7 @@ public class testPlayercontroller : MonoBehaviour
 
         if(Input.touchCount > 0)
         {
+
             if(Input.GetTouch (0).phase == TouchPhase.Began)
             {
                 myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
