@@ -9,8 +9,21 @@ public class UIController : MonoBehaviour
     #region Dash Related
     [SerializeField]
     private TextMeshProUGUI dashCounter;
-    public int dashCount;
+    public int dashCount, dashTrack;
     #endregion
+    private playerController player;
+    [SerializeField]
+    public Button retryButton;
+
+    private void Awake()
+    {
+        player = GetComponent<playerController>();
+    }
+
+    private void Start()
+    {
+        retryButton.gameObject.SetActive(false);
+    }
 
     private void Update()
     {
@@ -20,5 +33,7 @@ public class UIController : MonoBehaviour
     public void DashUse()
     {
         dashCount -= 1;
+        dashTrack += 1;
     }
+
 }

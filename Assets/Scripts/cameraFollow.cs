@@ -17,6 +17,12 @@ public class cameraFollow : MonoBehaviour
 
     private void Update()
     {
+        if (thePlayer.dead == false)
+            Follow();
+    }
+
+    void Follow()
+    {
         distanceToMove = thePlayer.transform.position.x - lastPlayerPosition.x; //Determines the distance between camerera and player on the x axis
 
         transform.position = new Vector3(transform.position.x + distanceToMove, transform.position.y, transform.position.z); //Moves the camera to catch up with the player
