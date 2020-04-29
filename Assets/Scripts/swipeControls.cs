@@ -5,6 +5,9 @@ using UnityEngine;
 public class swipeControls : MonoBehaviour
 {
     private bool swipeLeft, swipeRight, swipeUp, swipeDown;  //A bool for the four possible swipe directions
+    [SerializeField]
+    private float tapTime; //Differentiates between a tap and a swipe
+    private bool tap = false;
     private bool touching = false; //This bool detects wether or not we're touching the screen
     private Vector2 startPos, swipeDelta; //"startPos" vector is the position of the intial touch while "swipeDelta" is the current touch position
 
@@ -14,6 +17,7 @@ public class swipeControls : MonoBehaviour
     public bool SwipeRight { get { return swipeRight; } }
     public bool SwipeUp { get { return swipeUp; } }
     public bool SwipeDown { get { return swipeDown; } }
+    public bool Tap { get { return tap; } }
     #endregion
 
     private void Update()
@@ -25,8 +29,10 @@ public class swipeControls : MonoBehaviour
         {
             if (Input.touches[0].phase == TouchPhase.Began)
             {
+                tap = true;
                 touching = true; //Enables the bool "touching" when a touch happens on screen
                 startPos = Input.touches[0].position; //Makes "startPos" the position of the initial touch
+                Invoke("KillTap", tapTime);
             }
             else if (Input.touches[0].phase == TouchPhase.Ended || Input.touches[0].phase == TouchPhase.Canceled)
             {
@@ -82,5 +88,10 @@ public class swipeControls : MonoBehaviour
     {
         startPos = swipeDelta = Vector2.zero;
         touching = false;
+    }
+
+    void KillTap()
+    {
+        tap = false;
     }
 }
