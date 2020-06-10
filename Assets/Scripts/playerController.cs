@@ -8,13 +8,13 @@ public class playerController : MonoBehaviour
     [Header("Player Attributes")]
     [SerializeField]
     private float moveSpeed; //Determines how fast the player autoruns
-    [SerializeField]
     private float jumpForce; //Determines how high the player jumps
     [SerializeField]
     private float rollTime;
     private bool rollCool;
     [SerializeField]
     private float fallMultiplier;
+    private Vector2 spawnPos;
     #endregion
 
     public swipeControls Swipe;
@@ -31,6 +31,7 @@ public class playerController : MonoBehaviour
 
     private Rigidbody2D rb; //Names the Rigidbody component on the Player "rb"
     private BoxCollider2D bc;
+    private Animator anim;
 
     #region Bool Checks
     [Header("Bool Checks")]
@@ -41,10 +42,18 @@ public class playerController : MonoBehaviour
     public bool invulnerable = false;
     #endregion
 
-    private void Start()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>(); //Grabs the Rigidbody component from the gameobject (the player)
         bc = GetComponent<BoxCollider2D>();
+        anim = GetComponent<Animator>();
+    }
+
+    private void Start()
+    {
+        spawnPos = new Vector3(-5, -5, 0);
+        transform.position = spawnPos;
+        jumpForce = CalculateJumpForce(Physics2D.gravity.magnitude, 25f);
         Run();
     }
 
@@ -63,10 +72,23 @@ public class playerController : MonoBehaviour
         if (rb.velocity.y < 0)
         {
             if (rollCool)
-                rb.velocity += Vector2.up * Physics2D.gravity.y * ((fallMultiplier - 1) * 4) * Time.deltaTime;
+            {
+                rb.velocity += Vector2.up * Physics2D.gravity.y * ((fallMultiplier - 1) * 5) * Time.deltaTime;
+                anim.SetBool("Fall", false); 
+            }
             else
+            {
                 rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+                anim.SetBool("Fall", true);
+            }
         }
+        else
+            anim.SetBool("Fall", false);
+
+        if (rb.velocity.y > 0)
+            anim.SetBool("Leap", true);
+        else
+            anim.SetBool("Leap", false);
     }
 
     private void Update()
@@ -77,7 +99,7 @@ public class playerController : MonoBehaviour
         {
             if (Input.touchCount > 0) //If the screen is touched while the Player is running
             {
-                if (Input.GetTouch(0).phase == TouchPhase.Ended && Swipe.Tap && rollCool == false) //If it is a tap we move on (Not a swipe or a hold)
+                if (Input.GetTouch(0).phase == TouchPhase.Ended && Swipe.Swiped == false && rollCool == false) //If it is a tap we move on (Not a swipe or a hold)
                 {
                     if (onPlatform) //If we're on the ground we jump
                         Jump();
@@ -95,8 +117,8 @@ public class playerController : MonoBehaviour
                     StartCoroutine(Dash());
                 }
             }
-            #endregion
         }
+        #endregion
     }
 
     [ContextMenu("Run")]
@@ -108,10 +130,12 @@ public class playerController : MonoBehaviour
     }
 
     [ContextMenu("Stop")]
-    void Stop()
+    public void Stop()
     {
+        dead = true;
         isRunning = false; //Sets the bool isRunning false
         rb.constraints = RigidbodyConstraints2D.FreezePosition; //Freezes the positon of the Player
+        StopAllCoroutines();
     }
 
     #region Jump Function
@@ -119,6 +143,11 @@ public class playerController : MonoBehaviour
     void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+    }
+
+    public static float CalculateJumpForce(float gravityStrength, float jumpHeight)
+    {
+        return Mathf.Sqrt(2 * gravityStrength * jumpHeight);
     }
     #endregion
 
@@ -130,17 +159,18 @@ public class playerController : MonoBehaviour
     #endregion
 
     #region Roll Function
-    [ContextMenu("Roll")]
     IEnumerator Roll()
     {
         invulnerable = true;
         rollCool = true;
         bc.size = new Vector2(1, 0.35f);
-        yield return new WaitForSeconds(0.15f);
+        anim.SetBool("Roll", true);
+        yield return new WaitForSeconds(0.2f);
         bc.offset = new Vector2(0, -0.17f);
         rollCool = false;
         yield return new WaitForSeconds(rollTime);
-        //Cast raycast above ur head and don't go out of a roll until raycast is clear
+        //Cast raycast above your head and don't go out of a roll until raycast is clear
+        anim.SetBool("Roll", false);
         bc.offset = new Vector2(0, 0.08f);
         bc.size = new Vector2(1, 0.85f);
         invulnerable = false;
@@ -150,14 +180,17 @@ public class playerController : MonoBehaviour
     #region Dash Function
     IEnumerator Dash()
     {
+        StopCoroutine(Roll());
         invulnerable = true;
         dashActive = true; //Enables dash
         isRunning = false; //Disables running so that we can't perform other moves while dashing (jumping, rolling, vine attacking)
+        anim.SetBool("Dash", true);
         rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation; //We freeze the y position so that we remain in the air while dashing
         uiController.DashUse();
         yield return new WaitForSeconds(dashTime); //Determines how long the dash last based on the "dashTime" that we determine in the inspector
         dashActive = false; //Disables the dash
         invulnerable = false;
+        anim.SetBool("Dash", false);
         Run(); //After the dash is finished we begin the "Run" function
     }
     #endregion
@@ -172,9 +205,16 @@ public class playerController : MonoBehaviour
         uiController.retryButton.gameObject.SetActive(true);
     }
 
-    public void Finished()
+    [ContextMenu("Crash")]
+    public IEnumerator Knockback()
     {
+        //StopAllCoroutines();
         isRunning = false;
-        dashActive = false;
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        transform.position = new Vector3(transform.position.x - 3.5f, transform.position.y, transform.position.z);
+        yield return new WaitForSeconds(0.5f);
+        transform.position = new Vector3(transform.position.x - 3.5f, transform.position.y, transform.position.z);
+        yield return new WaitForSeconds(0.5f);
+        Run();
     }
 }

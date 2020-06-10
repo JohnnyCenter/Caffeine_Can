@@ -1,0 +1,4028 @@
+fileFormatVersion: 2
+guid: 885896b5d387fbc46a6ebfcdbbd501d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7406873867071169888
+    second: Dash Meter_0
+  - first:
+      213: -1816120377017416269
+    second: Dash Meter_1
+  - first:
+      213: -8481612427424892636
+    second: Dash Meter_2
+  - first:
+      213: -6061299987671246478
+    second: Dash Meter_3
+  - first:
+      213: -3415657606553746416
+    second: Dash Meter_4
+  - first:
+      213: 8308206101697637011
+    second: Dash Meter_5
+  - first:
+      213: 2560761824064174710
+    second: Dash Meter_6
+  - first:
+      213: 5132761742279801321
+    second: Dash Meter_7
+  - first:
+      213: -3164596101271043791
+    second: Dash Meter_8
+  - first:
+      213: -5881270707717736515
+    second: Dash Meter_9
+  - first:
+      213: 4799804404224380088
+    second: Dash Meter_10
+  - first:
+      213: -3902017178541959917
+    second: Dash Meter_11
+  - first:
+      213: -1988785634472034747
+    second: Dash Meter_12
+  - first:
+      213: -1959459377081261207
+    second: Dash Meter_13
+  - first:
+      213: 1990048462262140438
+    second: Dash Meter_14
+  - first:
+      213: 423747649082507042
+    second: Dash Meter_15
+  - first:
+      213: 5232724957487184895
+    second: Dash Meter_16
+  - first:
+      213: 3030961804480629410
+    second: Dash Meter_17
+  - first:
+      213: 3803982631637681380
+    second: Dash Meter_18
+  - first:
+      213: -5373882960623003680
+    second: Dash Meter_19
+  - first:
+      213: 3542646411880429559
+    second: Dash Meter_20
+  - first:
+      213: 5614881470393532917
+    second: Dash Meter_21
+  - first:
+      213: 2501071483954958533
+    second: Dash Meter_22
+  - first:
+      213: -4242694110559370341
+    second: Dash Meter_23
+  - first:
+      213: 406012699358237437
+    second: Dash Meter_24
+  - first:
+      213: -1106184031941422781
+    second: Dash Meter_25
+  - first:
+      213: 8138370806466682123
+    second: Dash Meter_26
+  - first:
+      213: -1823156495502762063
+    second: Dash Meter_27
+  - first:
+      213: 3292007765684077697
+    second: Dash Meter_28
+  - first:
+      213: -908257998587079412
+    second: Dash Meter_29
+  - first:
+      213: 7164911575936503820
+    second: Dash Meter_30
+  - first:
+      213: -5552276828101853116
+    second: Dash Meter_31
+  - first:
+      213: -264429045699722662
+    second: Dash Meter_32
+  - first:
+      213: -3002001199207849183
+    second: Dash Meter_33
+  - first:
+      213: -409514834965760514
+    second: Dash Meter_34
+  - first:
+      213: -6255614125649410660
+    second: Dash Meter_35
+  - first:
+      213: -5067940107903158282
+    second: Dash Meter_36
+  - first:
+      213: 3579751891243054651
+    second: Dash Meter_37
+  - first:
+      213: -7978659038244488841
+    second: Dash Meter_38
+  - first:
+      213: -7150112904909933807
+    second: Dash Meter_39
+  - first:
+      213: 8012377050313907532
+    second: Dash Meter_40
+  - first:
+      213: -486237487113163984
+    second: Dash Meter_41
+  - first:
+      213: 2380642277781295192
+    second: Dash Meter_42
+  - first:
+      213: 8094816666678819013
+    second: Dash Meter_43
+  - first:
+      213: -8726516475301723292
+    second: Dash Meter_44
+  - first:
+      213: -385654141709265973
+    second: Dash Meter_45
+  - first:
+      213: -6542734685267411344
+    second: Dash Meter_46
+  - first:
+      213: -928519929474043436
+    second: Dash Meter_47
+  - first:
+      213: 1485790424883143161
+    second: Dash Meter_48
+  - first:
+      213: 7104390741756251871
+    second: Dash Meter_49
+  - first:
+      213: -4053093502485494239
+    second: Dash Meter_50
+  - first:
+      213: -9153133868787935259
+    second: Dash Meter_51
+  - first:
+      213: -3421395921944052122
+    second: Dash Meter_52
+  - first:
+      213: 7979243818023139983
+    second: Dash Meter_53
+  - first:
+      213: -4315060594502447488
+    second: Dash Meter_54
+  - first:
+      213: -5064804272288437819
+    second: Dash Meter_55
+  - first:
+      213: 3985367515034330200
+    second: Dash Meter_56
+  - first:
+      213: 2244223145199082884
+    second: Dash Meter_57
+  - first:
+      213: -6199155310517011890
+    second: Dash Meter_58
+  - first:
+      213: 4059585465564168596
+    second: Dash Meter_59
+  - first:
+      213: 3287326852586918135
+    second: Dash Meter_60
+  - first:
+      213: 3947535087265492528
+    second: Dash Meter_61
+  - first:
+      213: -1774472336382953953
+    second: Dash Meter_62
+  - first:
+      213: -4895335580150626540
+    second: Dash Meter_63
+  - first:
+      213: 6452969441524490221
+    second: Dash Meter_64
+  - first:
+      213: 2823972996143345109
+    second: Dash Meter_65
+  - first:
+      213: -1587856584643576801
+    second: Dash Meter_66
+  - first:
+      213: 7114731597937556012
+    second: Dash Meter_67
+  - first:
+      213: 1964219780556838778
+    second: Dash Meter_68
+  - first:
+      213: -3095470318756359424
+    second: Dash Meter_69
+  - first:
+      213: -4009002290561721033
+    second: Dash Meter_70
+  - first:
+      213: -7713896826785728627
+    second: Dash Meter_71
+  - first:
+      213: 1170059437345344342
+    second: Dash Meter_72
+  - first:
+      213: 3196582081227678528
+    second: Dash Meter_73
+  - first:
+      213: 5442653606028869886
+    second: Dash Meter_74
+  - first:
+      213: -2919957338440213158
+    second: Dash Meter_75
+  - first:
+      213: -8941048603807888342
+    second: Dash Meter_76
+  - first:
+      213: -3735824207151427811
+    second: Dash Meter_77
+  - first:
+      213: -4636177763868749479
+    second: Dash Meter_78
+  - first:
+      213: -4223106922974118279
+    second: Dash Meter_79
+  - first:
+      213: 3028184274362949386
+    second: Dash Meter_80
+  - first:
+      213: -4906477560099916180
+    second: Dash Meter_81
+  - first:
+      213: -1957090359757058367
+    second: Dash Meter_82
+  - first:
+      213: 2142288179597525804
+    second: Dash Meter_83
+  - first:
+      213: 624879718872923146
+    second: Dash Meter_84
+  - first:
+      213: -8859774122761852677
+    second: Dash Meter_85
+  - first:
+      213: 3295040904681400297
+    second: Dash Meter_86
+  - first:
+      213: 7758139155085373019
+    second: Dash Meter_87
+  - first:
+      213: 2579497209817672564
+    second: Dash Meter_88
+  - first:
+      213: 3526091811773437649
+    second: Dash Meter_89
+  - first:
+      213: 2564578216744785671
+    second: Dash Meter_90
+  - first:
+      213: 314062959199284310
+    second: Dash Meter_91
+  - first:
+      213: -8913042976266875682
+    second: Dash Meter_92
+  - first:
+      213: -5687077125765856825
+    second: Dash Meter_93
+  - first:
+      213: -401048225705695513
+    second: Dash Meter_94
+  - first:
+      213: 5135586556774143268
+    second: Dash Meter_95
+  - first:
+      213: 2726545439554055534
+    second: Dash Meter_96
+  - first:
+      213: 4164644718423462119
+    second: Dash Meter_97
+  - first:
+      213: -3496620890705322707
+    second: Dash Meter_98
+  - first:
+      213: 2013377215949746169
+    second: Dash Meter_99
+  - first:
+      213: 6722984620766966324
+    second: Dash Meter_100
+  - first:
+      213: -243078161646613366
+    second: Dash Meter_101
+  - first:
+      213: -2111667571969433766
+    second: Dash Meter_102
+  - first:
+      213: -6343476532456101729
+    second: Dash Meter_103
+  - first:
+      213: 649631536726408994
+    second: Dash Meter_104
+  - first:
+      213: -8308968848440618055
+    second: Dash Meter_105
+  - first:
+      213: 4626378890981345618
+    second: Dash Meter_106
+  - first:
+      213: 515696864403412792
+    second: Dash Meter_107
+  - first:
+      213: -8684818043557022539
+    second: Dash Meter_108
+  - first:
+      213: 5528944817261613488
+    second: Dash Meter_109
+  - first:
+      213: 4254575396620586657
+    second: Dash Meter_110
+  - first:
+      213: -6011201897439561057
+    second: Dash Meter_111
+  - first:
+      213: 5114576512400590200
+    second: Dash Meter_112
+  - first:
+      213: -2722881840301844002
+    second: Dash Meter_113
+  - first:
+      213: -3645905225056977156
+    second: Dash Meter_114
+  - first:
+      213: 8379451686760471386
+    second: Dash Meter_115
+  - first:
+      213: -6995415828874815896
+    second: Dash Meter_116
+  - first:
+      213: -3429810577597367743
+    second: Dash Meter_117
+  - first:
+      213: 523833326436672872
+    second: Dash Meter_118
+  - first:
+      213: -6279378913937812911
+    second: Dash Meter_119
+  - first:
+      213: 8667086921705735861
+    second: Dash Meter_120
+  - first:
+      213: -6471759955785293141
+    second: Dash Meter_121
+  - first:
+      213: -4363826285202764569
+    second: Dash Meter_122
+  - first:
+      213: 1914935747174603384
+    second: Dash Meter_123
+  - first:
+      213: 4171393570533293306
+    second: Dash Meter_124
+  - first:
+      213: 9147025262913237948
+    second: Dash Meter_125
+  - first:
+      213: 8071304462912061985
+    second: Dash Meter_126
+  - first:
+      213: 8245711478850405798
+    second: Dash Meter_127
+  - first:
+      213: 3926963372973563767
+    second: Dash Meter_128
+  - first:
+      213: -6793114352471510166
+    second: Dash Meter_129
+  - first:
+      213: 131334032908640344
+    second: Dash Meter_130
+  - first:
+      213: -7503330472258404562
+    second: Dash Meter_131
+  - first:
+      213: 1240532096279876742
+    second: Dash Meter_132
+  - first:
+      213: 4838460718770930531
+    second: Dash Meter_133
+  - first:
+      213: -243779367648221548
+    second: Dash Meter_134
+  - first:
+      213: -7488824468487405188
+    second: Dash Meter_135
+  - first:
+      213: -6585128301051848061
+    second: Dash Meter_136
+  - first:
+      213: 1194792437479605397
+    second: Dash Meter_137
+  - first:
+      213: 765202087277606762
+    second: Dash Meter_138
+  - first:
+      213: -5294470662960762933
+    second: Dash Meter_139
+  - first:
+      213: -683855806744725925
+    second: Dash Meter_140
+  - first:
+      213: -1365302979999100422
+    second: Dash Meter_141
+  - first:
+      213: -2405243375185232987
+    second: Dash Meter_142
+  - first:
+      213: -9167366778837514737
+    second: Dash Meter_143
+  - first:
+      213: -6460521327036225761
+    second: Dash Meter_144
+  - first:
+      213: 7810523048723299874
+    second: Dash Meter_145
+  - first:
+      213: 3271168402909335551
+    second: Dash Meter_146
+  - first:
+      213: 4821504491535977685
+    second: Dash Meter_147
+  - first:
+      213: 8515814089500395015
+    second: Dash Meter_148
+  - first:
+      213: -701399648367050897
+    second: Dash Meter_149
+  - first:
+      213: -5159450119036048534
+    second: Dash Meter_150
+  - first:
+      213: -1629528289038488097
+    second: Dash Meter_151
+  - first:
+      213: 6533170797632226393
+    second: Dash Meter_152
+  - first:
+      213: -1858221429975234662
+    second: Dash Meter_153
+  - first:
+      213: -8986563238255080210
+    second: Dash Meter_154
+  - first:
+      213: -1997546103807811078
+    second: Dash Meter_155
+  - first:
+      213: -1771586030692749622
+    second: Dash Meter_156
+  - first:
+      213: -4319411210431165993
+    second: Dash Meter_157
+  - first:
+      213: 4810700280847314719
+    second: Dash Meter_158
+  - first:
+      213: 2170480811293963148
+    second: Dash Meter_159
+  - first:
+      213: -9140846181453250772
+    second: Dash Meter_160
+  - first:
+      213: 537388728138484532
+    second: Dash Meter_161
+  - first:
+      213: -3612442556646575808
+    second: Dash Meter_162
+  - first:
+      213: 5564955388122989231
+    second: Dash Meter_163
+  - first:
+      213: 8334855422799543009
+    second: Dash Meter_164
+  - first:
+      213: -3450283540027160356
+    second: Dash Meter_165
+  - first:
+      213: 1626083718288925577
+    second: Dash Meter_166
+  - first:
+      213: -7723453507559688984
+    second: Dash Meter_167
+  - first:
+      213: -2699451342393208583
+    second: Dash Meter_168
+  - first:
+      213: 3632674018875334968
+    second: Dash Meter_169
+  - first:
+      213: -5008560147803916244
+    second: Dash Meter_170
+  - first:
+      213: -9196950988014761789
+    second: Dash Meter_171
+  - first:
+      213: 3810033559292197795
+    second: Dash Meter_172
+  - first:
+      213: -8002264596317314251
+    second: Dash Meter_173
+  - first:
+      213: 5563531805003785693
+    second: Dash Meter_174
+  - first:
+      213: -4872837665124502189
+    second: Dash Meter_175
+  - first:
+      213: 5216501294743584359
+    second: Dash Meter_176
+  - first:
+      213: -7115439894564152950
+    second: Dash Meter_177
+  - first:
+      213: -192405737476864399
+    second: Dash Meter_178
+  - first:
+      213: 5610184526990985106
+    second: Dash Meter_179
+  - first:
+      213: -4563940471475534512
+    second: Dash Meter_180
+  - first:
+      213: -8006866191779773715
+    second: Dash Meter_181
+  - first:
+      213: -2472467589663794061
+    second: Dash Meter_182
+  - first:
+      213: 2079473040559956909
+    second: Dash Meter_183
+  - first:
+      213: 3670077422848736131
+    second: Dash Meter_184
+  - first:
+      213: -5843723851214840844
+    second: Dash Meter_185
+  - first:
+      213: -5486225475853135002
+    second: Dash Meter_186
+  - first:
+      213: -2810620259090697686
+    second: Dash Meter_187
+  - first:
+      213: -6520385426938003864
+    second: Dash Meter_188
+  - first:
+      213: 4520715395878180789
+    second: Dash Meter_189
+  - first:
+      213: -3053968927453290180
+    second: Dash Meter_190
+  - first:
+      213: 6660110400896880335
+    second: Dash Meter_191
+  - first:
+      213: -5682405043086663588
+    second: Dash Meter_192
+  - first:
+      213: 1526317063774683655
+    second: Dash Meter_193
+  - first:
+      213: 2597460636248655238
+    second: Dash Meter_194
+  - first:
+      213: -4692475639404367355
+    second: Dash Meter_195
+  - first:
+      213: -6494182524067692281
+    second: Dash Meter_196
+  - first:
+      213: 4347549045462499100
+    second: Dash Meter_197
+  - first:
+      213: -4107383871960275014
+    second: Dash Meter_198
+  - first:
+      213: -8079427981693959712
+    second: Dash Meter_199
+  - first:
+      213: -3114319451547073153
+    second: Dash Meter_200
+  - first:
+      213: -2923867616293132496
+    second: Dash Meter_201
+  - first:
+      213: -1958035800304940874
+    second: Dash Meter_202
+  - first:
+      213: -505469204988545204
+    second: Dash Meter_203
+  - first:
+      213: 4614235718877035516
+    second: Dash Meter_204
+  - first:
+      213: 1634418081714245716
+    second: Dash Meter_205
+  - first:
+      213: 4402253189919560186
+    second: Dash Meter_206
+  - first:
+      213: -1962791139210881890
+    second: Dash Meter_207
+  - first:
+      213: 2721687638101934561
+    second: Dash Meter_208
+  - first:
+      213: -7998381499824041496
+    second: Dash Meter_209
+  - first:
+      213: 5805338683257513870
+    second: Dash Meter_210
+  - first:
+      213: 1185503760692135809
+    second: Dash Meter_211
+  - first:
+      213: 4014880121023258197
+    second: Dash Meter_212
+  - first:
+      213: 9156156997798596316
+    second: Dash Meter_213
+  - first:
+      213: 3819013903018507792
+    second: Dash Meter_214
+  - first:
+      213: 5881817506842291571
+    second: Dash Meter_215
+  - first:
+      213: 8989008231538708323
+    second: Dash Meter_216
+  - first:
+      213: 2245378712789162800
+    second: Dash Meter_217
+  - first:
+      213: -8771751731585464165
+    second: Dash Meter_218
+  - first:
+      213: 3398190420326133885
+    second: Dash Meter_219
+  - first:
+      213: 4138311364849294439
+    second: Dash Meter_220
+  - first:
+      213: -6584310877886369968
+    second: Dash Meter_221
+  - first:
+      213: 8514655410949781887
+    second: Dash Meter_222
+  - first:
+      213: 329001454719135180
+    second: Dash Meter_223
+  - first:
+      213: 2517552638897420059
+    second: Dash Meter_224
+  - first:
+      213: 4927651602707886607
+    second: Dash Meter_225
+  - first:
+      213: 2524566456267530291
+    second: Dash Meter_226
+  - first:
+      213: 8769744391520072003
+    second: Dash Meter_227
+  - first:
+      213: -8748768273637536358
+    second: Dash Meter_228
+  - first:
+      213: -6822556520723146771
+    second: Dash Meter_229
+  - first:
+      213: 8303980407171012108
+    second: Dash Meter_230
+  - first:
+      213: 2155153384094752028
+    second: Dash Meter_231
+  - first:
+      213: 206983495188560972
+    second: Dash Meter_232
+  - first:
+      213: -3580902100807779587
+    second: Dash Meter_233
+  - first:
+      213: 5075076548229559743
+    second: Dash Meter_234
+  - first:
+      213: 8160492782597747492
+    second: Dash Meter_235
+  - first:
+      213: 125419917116567312
+    second: Dash Meter_236
+  - first:
+      213: 2480184279788142817
+    second: Dash Meter_237
+  - first:
+      213: -5034264320410483789
+    second: Dash Meter_238
+  - first:
+      213: -4026933512480878527
+    second: Dash Meter_239
+  - first:
+      213: -8078601882973398263
+    second: Dash Meter_240
+  - first:
+      213: 5119010709771833269
+    second: Dash Meter_241
+  - first:
+      213: -8909011433570499797
+    second: Dash Meter_242
+  - first:
+      213: -300514179897340400
+    second: Dash Meter_243
+  - first:
+      213: -145435923523279149
+    second: Dash Meter_244
+  - first:
+      213: -6660952139032791304
+    second: Dash Meter_245
+  - first:
+      213: 5240485467818718749
+    second: Dash Meter_246
+  - first:
+      213: 2996216712484567760
+    second: Dash Meter_247
+  - first:
+      213: 543867179418974360
+    second: Dash Meter_248
+  - first:
+      213: 7290659234722899783
+    second: Dash Meter_249
+  - first:
+      213: 261457150928722020
+    second: Dash Meter_250
+  - first:
+      213: -4544322444953342656
+    second: Dash Meter_251
+  - first:
+      213: 3538130106411039905
+    second: Dash Meter_252
+  - first:
+      213: 1221043964534569131
+    second: Dash Meter_253
+  - first:
+      213: -956609721479120504
+    second: Dash Meter_254
+  - first:
+      213: 1897434918130050438
+    second: Dash Meter_255
+  - first:
+      213: -5143808518463585835
+    second: Dash Meter_256
+  - first:
+      213: 1376962774315965171
+    second: Dash Meter_257
+  - first:
+      213: 480122361589985511
+    second: Dash Meter_258
+  - first:
+      213: -2674404726722007539
+    second: Dash Meter_259
+  - first:
+      213: 4770676858639991686
+    second: Dash Meter_260
+  - first:
+      213: -6276165208132787824
+    second: Dash Meter_261
+  - first:
+      213: 3056656407805470070
+    second: Dash Meter_262
+  - first:
+      213: 9186149326236706641
+    second: Dash Meter_263
+  - first:
+      213: 6439524842264148160
+    second: Dash Meter_264
+  - first:
+      213: -4394984294567039510
+    second: Dash Meter_265
+  - first:
+      213: -3063614309012073517
+    second: Dash Meter_266
+  - first:
+      213: 166031745974798991
+    second: Dash Meter_267
+  - first:
+      213: 1092265785908277858
+    second: Dash Meter_268
+  - first:
+      213: 6578308590780800931
+    second: Dash Meter_269
+  - first:
+      213: -6319760269481582838
+    second: Dash Meter_270
+  - first:
+      213: 3636604275078720947
+    second: Dash Meter_271
+  - first:
+      213: -8494336409846997643
+    second: Dash Meter_272
+  - first:
+      213: -2023339230935362251
+    second: Dash Meter_273
+  - first:
+      213: 6135097316707723792
+    second: Dash Meter_274
+  - first:
+      213: -693523593533004501
+    second: Dash Meter_275
+  - first:
+      213: -8136387510726617519
+    second: Dash Meter_276
+  - first:
+      213: 4105061872394056001
+    second: Dash Meter_277
+  - first:
+      213: 5790005259490788761
+    second: Dash Meter_278
+  - first:
+      213: 7558495966902300837
+    second: Dash Meter_279
+  - first:
+      213: -4976337207545286720
+    second: Dash Meter_280
+  - first:
+      213: -4372720338551045368
+    second: Dash Meter_281
+  - first:
+      213: -2464747583742019975
+    second: Dash Meter_282
+  - first:
+      213: -4877806763519274026
+    second: Dash Meter_283
+  - first:
+      213: -780919241663715174
+    second: Dash Meter_284
+  - first:
+      213: 5643614554039358432
+    second: Dash Meter_285
+  - first:
+      213: -8378813776321710216
+    second: Dash Meter_286
+  - first:
+      213: 7109906929798587982
+    second: Dash Meter_287
+  - first:
+      213: 7797289437688320453
+    second: Dash Meter_288
+  - first:
+      213: -1657163994777826116
+    second: Dash Meter_289
+  - first:
+      213: 1292179545857606835
+    second: Dash Meter_290
+  - first:
+      213: -6682785778167287044
+    second: Dash Meter_291
+  - first:
+      213: -1269477993497157649
+    second: Dash Meter_292
+  - first:
+      213: 8357294533050480947
+    second: Dash Meter_293
+  - first:
+      213: -252286251364495352
+    second: Dash Meter_294
+  - first:
+      213: 8583764802529761320
+    second: Dash Meter_295
+  - first:
+      213: 4470646680268246875
+    second: Dash Meter_296
+  - first:
+      213: -2997705052810033769
+    second: Dash Meter_297
+  - first:
+      213: -8907634471863636172
+    second: Dash Meter_298
+  - first:
+      213: -6446231302562220927
+    second: Dash Meter_299
+  - first:
+      213: -3610330824044118934
+    second: Dash Meter_300
+  - first:
+      213: 4898109303349605436
+    second: Dash Meter_301
+  - first:
+      213: -8160405527105433763
+    second: Dash Meter_302
+  - first:
+      213: 2285739884157059508
+    second: Dash Meter_303
+  - first:
+      213: 8126516248147805040
+    second: Dash Meter_304
+  - first:
+      213: 3091454519858680315
+    second: Dash Meter_305
+  - first:
+      213: -870100751567799944
+    second: Dash Meter_306
+  - first:
+      213: 6740546489667873213
+    second: Dash Meter_307
+  - first:
+      213: -5136608943712930069
+    second: Dash Meter_308
+  - first:
+      213: -5665964931629019697
+    second: Dash Meter_309
+  - first:
+      213: 3508721683472316790
+    second: Dash Meter_310
+  - first:
+      213: -6648553876807491786
+    second: Dash Meter_311
+  - first:
+      213: 3999246187651372591
+    second: Dash Meter_312
+  - first:
+      213: -2158561444821012910
+    second: Dash Meter_313
+  - first:
+      213: -3367713513050004233
+    second: Dash Meter_314
+  - first:
+      213: 2121551855348074862
+    second: Dash Meter_315
+  - first:
+      213: -2571693922825256547
+    second: Dash Meter_316
+  - first:
+      213: -4280264267140199658
+    second: Dash Meter_317
+  - first:
+      213: -2397988438002607565
+    second: Dash Meter_318
+  - first:
+      213: 1065158984343420272
+    second: Dash Meter_319
+  - first:
+      213: -6331783922343120064
+    second: Dash Meter_320
+  - first:
+      213: -4470879501458108565
+    second: Dash Meter_321
+  - first:
+      213: 7205605845790124393
+    second: Dash Meter_322
+  - first:
+      213: -3887068969246460328
+    second: Dash Meter_323
+  - first:
+      213: 1003291212862673008
+    second: Dash Meter_324
+  - first:
+      213: 7853743167508997010
+    second: Dash Meter_325
+  - first:
+      213: 2863669603368888098
+    second: Dash Meter_326
+  - first:
+      213: 415625460562890653
+    second: Dash Meter_327
+  - first:
+      213: -5196714396498968389
+    second: Dash Meter_328
+  - first:
+      213: 5435319147056498375
+    second: Dash Meter_329
+  - first:
+      213: -4495075682955999488
+    second: Dash Meter_330
+  - first:
+      213: -3506005975929413801
+    second: Dash Meter_331
+  - first:
+      213: 4766565920997846347
+    second: Dash Meter_332
+  - first:
+      213: -4695011698096886359
+    second: Dash Meter_333
+  - first:
+      213: 5711614243735789234
+    second: Dash Meter_334
+  - first:
+      213: -8634082207796350857
+    second: Dash Meter_335
+  - first:
+      213: -937317210874442078
+    second: Dash Meter_336
+  - first:
+      213: 6719545341802118866
+    second: Dash Meter_337
+  - first:
+      213: 143860066558023102
+    second: Dash Meter_338
+  - first:
+      213: 452015278562412607
+    second: Dash Meter_339
+  - first:
+      213: 1362317855037839672
+    second: Dash Meter_340
+  - first:
+      213: -384456537690198318
+    second: Dash Meter_341
+  - first:
+      213: -8351044674580421336
+    second: Dash Meter_342
+  - first:
+      213: 4580955519444989204
+    second: Dash Meter_343
+  - first:
+      213: 1131338824313784264
+    second: Dash Meter_344
+  - first:
+      213: -8505453112447384489
+    second: Dash Meter_345
+  - first:
+      213: 7952817250942903489
+    second: Dash Meter_346
+  - first:
+      213: -848566052731443943
+    second: Dash Meter_347
+  - first:
+      213: 1436773105984139338
+    second: Dash Meter_348
+  - first:
+      213: 364671990263368265
+    second: Dash Meter_349
+  - first:
+      213: -5762341879179939466
+    second: Dash Meter_350
+  - first:
+      213: 4908208474220513015
+    second: Dash Meter_351
+  - first:
+      213: 5790493855951202483
+    second: Dash Meter_352
+  - first:
+      213: -6288757121313532782
+    second: Dash Meter_353
+  - first:
+      213: -1262193746089329127
+    second: Dash Meter_354
+  - first:
+      213: -5748278515905184797
+    second: Dash Meter_355
+  - first:
+      213: -4733963095995149313
+    second: Dash Meter_356
+  - first:
+      213: 8736459333897768062
+    second: Dash Meter_357
+  - first:
+      213: 5515091425710003642
+    second: Dash Meter_358
+  - first:
+      213: 4085255243084201389
+    second: Dash Meter_359
+  - first:
+      213: -8468836660030812019
+    second: Dash Meter_360
+  - first:
+      213: 6111720800977010459
+    second: Dash Meter_361
+  - first:
+      213: -2953419251833861512
+    second: Dash Meter_362
+  - first:
+      213: 7504098775853918965
+    second: Dash Meter_363
+  - first:
+      213: 6559139607333004529
+    second: Dash Meter_364
+  - first:
+      213: 802185908753994089
+    second: Dash Meter_365
+  - first:
+      213: -288935126175886042
+    second: Dash Meter_366
+  - first:
+      213: 1866360934822516228
+    second: Dash Meter_367
+  - first:
+      213: 3655054490057152671
+    second: Dash Meter_368
+  - first:
+      213: 2062641204809951528
+    second: Dash Meter_369
+  - first:
+      213: 9036146925245239710
+    second: Dash Meter_370
+  - first:
+      213: 4930745794604872088
+    second: Dash Meter_371
+  - first:
+      213: -5334286139246514778
+    second: Dash Meter_372
+  - first:
+      213: -1219390411076474327
+    second: Dash Meter_373
+  - first:
+      213: -971678843894898963
+    second: Dash Meter_374
+  - first:
+      213: -2154012933781895439
+    second: Dash Meter_375
+  - first:
+      213: 4551811727224240565
+    second: Dash Meter_376
+  - first:
+      213: -6001508443279906493
+    second: Dash Meter_377
+  - first:
+      213: 3330660424120273341
+    second: Dash Meter_378
+  - first:
+      213: -3241300395980379741
+    second: Dash Meter_379
+  - first:
+      213: 2314114809427882700
+    second: Dash Meter_380
+  - first:
+      213: 6495572892714429894
+    second: Dash Meter_381
+  - first:
+      213: 5187721571224678679
+    second: Dash Meter_382
+  - first:
+      213: 6245070565792875790
+    second: Dash Meter_383
+  - first:
+      213: -6578467427835780585
+    second: Dash Meter_384
+  - first:
+      213: -34480059870482657
+    second: Dash Meter_385
+  - first:
+      213: 8817586458960260973
+    second: Dash Meter_386
+  - first:
+      213: 5288035738384082314
+    second: Dash Meter_387
+  - first:
+      213: -4560196103915332608
+    second: Dash Meter_388
+  - first:
+      213: 3095495381580121941
+    second: Dash Meter_389
+  - first:
+      213: -5817408443468495766
+    second: Dash Meter_390
+  - first:
+      213: -3672562073488541649
+    second: Dash Meter_391
+  - first:
+      213: 8632492139877817365
+    second: Dash Meter_392
+  - first:
+      213: 2524840697023917047
+    second: Dash Meter_393
+  - first:
+      213: 4800086958818716158
+    second: Dash Meter_394
+  - first:
+      213: 4731782855740142387
+    second: Dash Meter_395
+  - first:
+      213: -5655967039783145794
+    second: Dash Meter_396
+  - first:
+      213: 5891689993864303667
+    second: Dash Meter_397
+  - first:
+      213: -7277308708761678398
+    second: Dash Meter_398
+  - first:
+      213: 9083638211285837647
+    second: Dash Meter_399
+  - first:
+      213: -2428442419395386471
+    second: Dash Meter_400
+  - first:
+      213: -2993205116692272136
+    second: Dash Meter_401
+  - first:
+      213: 7273126487852495
+    second: Dash Meter_402
+  - first:
+      213: 2633329436645129588
+    second: Dash Meter_403
+  - first:
+      213: 2333487156741932566
+    second: Dash Meter_404
+  - first:
+      213: -3572043877801787751
+    second: Dash Meter_405
+  - first:
+      213: -248246806654660577
+    second: Dash Meter_406
+  - first:
+      213: 593012868042148238
+    second: Dash Meter_407
+  - first:
+      213: 5098043596129539333
+    second: Dash Meter_408
+  - first:
+      213: -6173915711356400060
+    second: Dash Meter_409
+  - first:
+      213: 3235114106137991428
+    second: Dash Meter_410
+  - first:
+      213: 2497774323807746835
+    second: Dash Meter_411
+  - first:
+      213: -3699713593237557411
+    second: Dash Meter_412
+  - first:
+      213: -3920313016701836586
+    second: Dash Meter_413
+  - first:
+      213: 3466830006834198966
+    second: Dash Meter_414
+  - first:
+      213: 3469225587986687374
+    second: Dash Meter_415
+  - first:
+      213: 5024692491884822583
+    second: Dash Meter_416
+  - first:
+      213: 3121069714369052767
+    second: Dash Meter_417
+  - first:
+      213: 4735063221095028444
+    second: Dash Meter_418
+  - first:
+      213: -6120904071436815491
+    second: Dash Meter_419
+  - first:
+      213: 2424403407193801114
+    second: Dash Meter_420
+  - first:
+      213: 4548887913243202365
+    second: Dash Meter_421
+  - first:
+      213: 124034018312670495
+    second: Dash Meter_422
+  - first:
+      213: -7810734242144070015
+    second: Dash Meter_423
+  - first:
+      213: 405747192985762396
+    second: Dash Meter_424
+  - first:
+      213: -6671021549735793456
+    second: Dash Meter_425
+  - first:
+      213: 698647189628210336
+    second: Dash Meter_426
+  - first:
+      213: 7442601431307995103
+    second: Dash Meter_427
+  - first:
+      213: -5422850359927031654
+    second: Dash Meter_428
+  - first:
+      213: 7847330200594413494
+    second: Dash Meter_429
+  - first:
+      213: 2635782772978439489
+    second: Dash Meter_430
+  - first:
+      213: 6528313943161722965
+    second: Dash Meter_431
+  - first:
+      213: 6320346165288430453
+    second: Dash Meter_432
+  - first:
+      213: -4357517508084412911
+    second: Dash Meter_433
+  - first:
+      213: -3236521258776290347
+    second: Dash Meter_434
+  - first:
+      213: 5741928765357936299
+    second: Dash Meter_435
+  - first:
+      213: 1566249451387940268
+    second: Dash Meter_436
+  - first:
+      213: 6822115272973542082
+    second: Dash Meter_437
+  - first:
+      213: -3669535664109764797
+    second: Dash Meter_438
+  - first:
+      213: 6320458811482540181
+    second: Dash Meter_439
+  - first:
+      213: -8180066683808752064
+    second: Dash Meter_440
+  - first:
+      213: 8314728483657731306
+    second: Dash Meter_441
+  - first:
+      213: -3005221244290068814
+    second: Dash Meter_442
+  - first:
+      213: -8084280872838242068
+    second: Dash Meter_443
+  - first:
+      213: 3490926837955518166
+    second: Dash Meter_444
+  - first:
+      213: -115053269554063375
+    second: Dash Meter_445
+  - first:
+      213: -7570066660159942966
+    second: Dash Meter_446
+  - first:
+      213: 1193748219519746298
+    second: Dash Meter_447
+  - first:
+      213: -6310839320154012923
+    second: Dash Meter_448
+  - first:
+      213: 7174744689826131321
+    second: Dash Meter_449
+  - first:
+      213: 8567021609119523482
+    second: Dash Meter_450
+  - first:
+      213: -5738960213065013023
+    second: Dash Meter_451
+  - first:
+      213: 8689001093356854789
+    second: Dash Meter_452
+  - first:
+      213: -7570333331192405364
+    second: Dash Meter_453
+  - first:
+      213: 4390273506707383587
+    second: Dash Meter_454
+  - first:
+      213: 5271284330780330665
+    second: Dash Meter_455
+  - first:
+      213: -3431161957797419357
+    second: Dash Meter_456
+  - first:
+      213: -2441464275478281247
+    second: Dash Meter_457
+  - first:
+      213: 7979759716248322882
+    second: Dash Meter_458
+  - first:
+      213: 5493985785079238816
+    second: Dash Meter_459
+  - first:
+      213: -780435888184401903
+    second: Dash Meter_460
+  - first:
+      213: 6818684046490613858
+    second: Dash Meter_461
+  - first:
+      213: 593251083241290592
+    second: Dash Meter_462
+  - first:
+      213: 961686687084600826
+    second: Dash Meter_463
+  - first:
+      213: 602747473950525520
+    second: Dash Meter_464
+  - first:
+      213: -5582803901514773046
+    second: Dash Meter_465
+  - first:
+      213: -5822283915180021596
+    second: Dash Meter_466
+  - first:
+      213: -4230858361802875699
+    second: Dash Meter_467
+  - first:
+      213: -3863197610750167976
+    second: Dash Meter_468
+  - first:
+      213: 8061378737605468108
+    second: Dash Meter_469
+  - first:
+      213: -7412744242124700048
+    second: Dash Meter_470
+  - first:
+      213: -4377765078695008761
+    second: Dash Meter_471
+  - first:
+      213: 6872516528704342162
+    second: Dash Meter_472
+  - first:
+      213: -4248957918830949489
+    second: Dash Meter_473
+  - first:
+      213: 9219419445364675769
+    second: Dash Meter_474
+  - first:
+      213: -4300531768070232409
+    second: Dash Meter_475
+  - first:
+      213: -7670217464119732059
+    second: Dash Meter_476
+  - first:
+      213: 2199662965901895186
+    second: Dash Meter_477
+  - first:
+      213: 2890369668445716319
+    second: Dash Meter_478
+  - first:
+      213: -9085749697949795650
+    second: Dash Meter_479
+  - first:
+      213: -2838834201174762918
+    second: Dash Meter_480
+  - first:
+      213: -2766973725742074930
+    second: Dash Meter_481
+  - first:
+      213: -4608176354859086960
+    second: Dash Meter_482
+  - first:
+      213: 471799450200453974
+    second: Dash Meter_483
+  - first:
+      213: 2868027592746470607
+    second: Dash Meter_484
+  - first:
+      213: -3341094868311364678
+    second: Dash Meter_485
+  - first:
+      213: 3494459471448194776
+    second: Dash Meter_486
+  - first:
+      213: 8537987343833048764
+    second: Dash Meter_487
+  - first:
+      213: -6113533917974579549
+    second: Dash Meter_488
+  - first:
+      213: -5441120814203240138
+    second: Dash Meter_489
+  - first:
+      213: -4885922166857753198
+    second: Dash Meter_490
+  - first:
+      213: -296463702034478063
+    second: Dash Meter_491
+  - first:
+      213: -7412807486744831798
+    second: Dash Meter_492
+  - first:
+      213: -7776175784523313052
+    second: Dash Meter_493
+  - first:
+      213: -8166235413991634123
+    second: Dash Meter_494
+  - first:
+      213: -1685034985940245798
+    second: Dash Meter_495
+  - first:
+      213: 1387388277248596775
+    second: Dash Meter_496
+  - first:
+      213: 4067643774278908718
+    second: Dash Meter_497
+  - first:
+      213: 794029347369640103
+    second: Dash Meter_498
+  - first:
+      213: -8509082480524653403
+    second: Dash Meter_499
+  - first:
+      213: 978770575650515734
+    second: Dash Meter_500
+  - first:
+      213: 1624170772466937364
+    second: Dash Meter_501
+  - first:
+      213: 7355746274113902444
+    second: Dash Meter_502
+  - first:
+      213: 2920446492683739320
+    second: Dash Meter_503
+  - first:
+      213: -2898579699798881634
+    second: Dash Meter_504
+  - first:
+      213: 4529101163417816878
+    second: Dash Meter_505
+  - first:
+      213: 8993819580808915616
+    second: Dash Meter_506
+  - first:
+      213: -8995206586578139675
+    second: Dash Meter_507
+  - first:
+      213: 1822814237644127939
+    second: Dash Meter_508
+  - first:
+      213: 8943234847616707033
+    second: Dash Meter_509
+  - first:
+      213: 3913329454333349848
+    second: Dash Meter_510
+  - first:
+      213: 2035730952709589120
+    second: Dash Meter_511
+  - first:
+      213: -7270355551530554800
+    second: Dash Meter_512
+  - first:
+      213: -6015916129169561718
+    second: Dash Meter_513
+  - first:
+      213: 1613019078891900106
+    second: Dash Meter_514
+  - first:
+      213: -2928734762710464164
+    second: Dash Meter_515
+  - first:
+      213: 6167786014590967696
+    second: Dash Meter_516
+  - first:
+      213: 549491521784137211
+    second: Dash Meter_517
+  - first:
+      213: 6383629256857877306
+    second: Dash Meter_518
+  - first:
+      213: -4376034152812147974
+    second: Dash Meter_519
+  - first:
+      213: -2004120441958546825
+    second: Dash Meter_520
+  - first:
+      213: 2195096610032302125
+    second: Dash Meter_521
+  - first:
+      213: 874727218637739312
+    second: Dash Meter_522
+  - first:
+      213: -1940030472228853220
+    second: Dash Meter_523
+  - first:
+      213: 5192685813504056482
+    second: Dash Meter_524
+  - first:
+      213: 6766943664340342074
+    second: Dash Meter_525
+  - first:
+      213: -1946096615950993749
+    second: Dash Meter_526
+  - first:
+      213: -700071055894436652
+    second: Dash Meter_527
+  - first:
+      213: 762937393001310062
+    second: Dash Meter_528
+  - first:
+      213: 5130060040134777244
+    second: Dash Meter_529
+  - first:
+      213: -6030016148542561122
+    second: Dash Meter_530
+  - first:
+      213: 1831766760360013107
+    second: Dash Meter_531
+  - first:
+      213: 4531700351192709112
+    second: Dash Meter_532
+  - first:
+      213: 1057695559028475021
+    second: Dash Meter_533
+  - first:
+      213: 6611822153859359912
+    second: Dash Meter_534
+  - first:
+      213: 5904906162278987031
+    second: Dash Meter_535
+  - first:
+      213: 5547131518929340041
+    second: Dash Meter_536
+  - first:
+      213: -6990894780630690957
+    second: Dash Meter_537
+  - first:
+      213: 8752934309895715717
+    second: Dash Meter_538
+  - first:
+      213: 44339710999371432
+    second: Dash Meter_539
+  - first:
+      213: 624592176848218894
+    second: Dash Meter_540
+  - first:
+      213: -1890552160580798015
+    second: Dash Meter_541
+  - first:
+      213: -5293515654905463576
+    second: Dash Meter_542
+  - first:
+      213: 484417380731771276
+    second: Dash Meter_543
+  - first:
+      213: -7623449886312916993
+    second: Dash Meter_544
+  - first:
+      213: 7868845706670073841
+    second: Dash Meter_545
+  - first:
+      213: -5280736037622215466
+    second: Dash Meter_546
+  - first:
+      213: -3883670501609086735
+    second: Dash Meter_547
+  - first:
+      213: 8518668193474629706
+    second: Dash Meter_548
+  - first:
+      213: -3843993837272072368
+    second: Dash Meter_549
+  - first:
+      213: -4849725052337390534
+    second: Dash Meter_550
+  - first:
+      213: 7023796395827554459
+    second: Dash Meter_551
+  - first:
+      213: -1198658408212329965
+    second: Dash Meter_552
+  - first:
+      213: -4936122279016010192
+    second: Dash Meter_553
+  - first:
+      213: 5824497390519824126
+    second: Dash Meter_554
+  - first:
+      213: 1225153860230352033
+    second: Dash Meter_555
+  - first:
+      213: 3886711385676295277
+    second: Dash Meter_556
+  - first:
+      213: 6980412142785848762
+    second: Dash Meter_557
+  - first:
+      213: 5983336864151511423
+    second: Dash Meter_558
+  - first:
+      213: -5689412095985315543
+    second: Dash Meter_559
+  - first:
+      213: 1662524025517956630
+    second: Dash Meter_560
+  - first:
+      213: 3890140357943219926
+    second: Dash Meter_561
+  - first:
+      213: -3314447962817069477
+    second: Dash Meter_562
+  - first:
+      213: 2543757127401930262
+    second: Dash Meter_563
+  - first:
+      213: 6981333549317841787
+    second: Dash Meter_564
+  - first:
+      213: -4652704189344012165
+    second: Dash Meter_565
+  - first:
+      213: -6901014977476204771
+    second: Dash Meter_566
+  - first:
+      213: -7423457959127063875
+    second: Dash Meter_567
+  - first:
+      213: 721588794346846467
+    second: Dash Meter_568
+  - first:
+      213: -3359413097154490733
+    second: Dash Meter_569
+  - first:
+      213: 3477785797117989083
+    second: Dash Meter_570
+  - first:
+      213: 1163946355404533782
+    second: Dash Meter_571
+  - first:
+      213: 5995391411285789681
+    second: Dash Meter_572
+  - first:
+      213: -1746020569414224799
+    second: Dash Meter_573
+  - first:
+      213: 3197149539195365529
+    second: Dash Meter_574
+  - first:
+      213: 1631145517603738645
+    second: Dash Meter_575
+  - first:
+      213: 195738954776921524
+    second: Dash Meter_576
+  - first:
+      213: 5138214149393137401
+    second: Dash Meter_577
+  - first:
+      213: -3395928481907246774
+    second: Dash Meter_578
+  - first:
+      213: -1812759349018969753
+    second: Dash Meter_579
+  - first:
+      213: -225941678617754298
+    second: Dash Meter_580
+  - first:
+      213: 328271539413371568
+    second: Dash Meter_581
+  - first:
+      213: -9005314773070770912
+    second: Dash Meter_582
+  - first:
+      213: 7811814873405800957
+    second: Dash Meter_583
+  - first:
+      213: 3294058875858826328
+    second: Dash Meter_584
+  - first:
+      213: -4774412870843869815
+    second: Dash Meter_585
+  - first:
+      213: 6204236103755458388
+    second: Dash Meter_586
+  - first:
+      213: 4090596039680432665
+    second: Dash Meter_587
+  - first:
+      213: -4708778068341540835
+    second: Dash Meter_588
+  - first:
+      213: 7327161254433277329
+    second: Dash Meter_589
+  - first:
+      213: -1734165128957668262
+    second: Dash Meter_590
+  - first:
+      213: 1099748328915586206
+    second: Dash Meter_591
+  - first:
+      213: 7085789598589768820
+    second: Dash Meter_592
+  - first:
+      213: 1916094015077241060
+    second: Dash Meter_593
+  - first:
+      213: 7884811480264420006
+    second: Dash Meter_594
+  - first:
+      213: 4234585108690791576
+    second: Dash Meter_595
+  - first:
+      213: 2647143471814352563
+    second: Dash Meter_596
+  - first:
+      213: -3043783838697094782
+    second: Dash Meter_597
+  - first:
+      213: 3579823010461526462
+    second: Dash Meter_598
+  - first:
+      213: 1617484023767039808
+    second: Dash Meter_599
+  - first:
+      213: 6360430211642763440
+    second: Dash Meter_600
+  - first:
+      213: 8109494734716443207
+    second: Dash Meter_601
+  - first:
+      213: -411031728018754699
+    second: Dash Meter_602
+  - first:
+      213: -3762838876827763384
+    second: Dash Meter_603
+  - first:
+      213: -3284576811727038503
+    second: Dash Meter_604
+  - first:
+      213: -1398544127645612922
+    second: Dash Meter_605
+  - first:
+      213: 7290691247018434283
+    second: Dash Meter_606
+  - first:
+      213: 8504557110976685098
+    second: Dash Meter_607
+  - first:
+      213: 646608667832752994
+    second: Dash Meter_608
+  - first:
+      213: -840366195778566718
+    second: Dash Meter_609
+  - first:
+      213: -3558823374084877185
+    second: Dash Meter_610
+  - first:
+      213: 6944191373356021841
+    second: Dash Meter_611
+  - first:
+      213: 7489917019846837987
+    second: Dash Meter_612
+  - first:
+      213: 3102701888081279190
+    second: Dash Meter_613
+  - first:
+      213: -2611576729573325839
+    second: Dash Meter_614
+  - first:
+      213: -8782976714955971969
+    second: Dash Meter_615
+  - first:
+      213: 3007960896481846916
+    second: Dash Meter_616
+  - first:
+      213: 2781624702413430942
+    second: Dash Meter_617
+  - first:
+      213: -5787514274463265542
+    second: Dash Meter_618
+  - first:
+      213: -3175344226149058836
+    second: Dash Meter_619
+  - first:
+      213: -3500499511740368071
+    second: Dash Meter_620
+  - first:
+      213: -5233357883255338105
+    second: Dash Meter_621
+  - first:
+      213: 2894088260741186550
+    second: Dash Meter_622
+  - first:
+      213: 4298138332351420713
+    second: Dash Meter_623
+  - first:
+      213: -3203130663079184670
+    second: Dash Meter_624
+  - first:
+      213: 8276163456232288701
+    second: Dash Meter_625
+  - first:
+      213: -7465652561855477180
+    second: Dash Meter_626
+  - first:
+      213: 734882107473200631
+    second: Dash Meter_627
+  - first:
+      213: -2253297505234524486
+    second: Dash Meter_628
+  - first:
+      213: -6236462927836997532
+    second: Dash Meter_629
+  - first:
+      213: 7076083606630472220
+    second: Dash Meter_630
+  - first:
+      213: -8386514073932059486
+    second: Dash Meter_631
+  - first:
+      213: -296766680027527641
+    second: Dash Meter_632
+  - first:
+      213: -3110848261999642084
+    second: Dash Meter_633
+  - first:
+      213: 6794317479908336712
+    second: Dash Meter_634
+  - first:
+      213: 6231628524476743726
+    second: Dash Meter_635
+  - first:
+      213: 9150264197124331568
+    second: Dash Meter_636
+  - first:
+      213: -4179797026123043448
+    second: Dash Meter_637
+  - first:
+      213: 2083562692321812624
+    second: Dash Meter_638
+  - first:
+      213: 195260091268691561
+    second: Dash Meter_639
+  - first:
+      213: 1120613949325236014
+    second: Dash Meter_640
+  - first:
+      213: -3816622456878275807
+    second: Dash Meter_641
+  - first:
+      213: -4364860938136522090
+    second: Dash Meter_642
+  - first:
+      213: -2237074838082899751
+    second: Dash Meter_643
+  - first:
+      213: 7066588221083416604
+    second: Dash Meter_644
+  - first:
+      213: 7970701700882740668
+    second: Dash Meter_645
+  - first:
+      213: -8781497695873231804
+    second: Dash Meter_646
+  - first:
+      213: -7401735533524276540
+    second: Dash Meter_647
+  - first:
+      213: 6309652157094649210
+    second: Dash Meter_648
+  - first:
+      213: 8833386753668601995
+    second: Dash Meter_649
+  - first:
+      213: -1214506327351579029
+    second: Dash Meter_650
+  - first:
+      213: -3355909940481954958
+    second: Dash Meter_651
+  - first:
+      213: -653846440125824583
+    second: Dash Meter_652
+  - first:
+      213: -3203260996884705592
+    second: Dash Meter_653
+  - first:
+      213: -5933986388981782398
+    second: Dash Meter_654
+  - first:
+      213: -7941178061952948685
+    second: Dash Meter_655
+  - first:
+      213: 7728550297693905264
+    second: Dash Meter_656
+  - first:
+      213: -2908020995625144400
+    second: Dash Meter_657
+  - first:
+      213: 3536420576205445310
+    second: Dash Meter_658
+  - first:
+      213: 9106726380525877679
+    second: Dash Meter_659
+  - first:
+      213: -4310722458955317353
+    second: Dash Meter_660
+  - first:
+      213: 4085615870285782183
+    second: Dash Meter_661
+  - first:
+      213: 6750948439002234758
+    second: Dash Meter_662
+  - first:
+      213: -5384220049477512844
+    second: Dash Meter_663
+  - first:
+      213: 132200495631432327
+    second: Dash Meter_664
+  - first:
+      213: 2789738056972279792
+    second: Dash Meter_665
+  - first:
+      213: 6409883629773343017
+    second: Dash Meter_666
+  - first:
+      213: 7231024216835766418
+    second: Dash Meter_667
+  - first:
+      213: -4386954067670860627
+    second: Dash Meter_668
+  - first:
+      213: -5075515732728894443
+    second: Dash Meter_669
+  - first:
+      213: 908799588460672961
+    second: Dash Meter_670
+  - first:
+      213: -8733522958701083029
+    second: Dash Meter_671
+  - first:
+      213: -8791043821337385213
+    second: Dash Meter_672
+  - first:
+      213: 8459537978940862011
+    second: Dash Meter_673
+  - first:
+      213: -7183478805089319725
+    second: Dash Meter_674
+  - first:
+      213: 610513306840487592
+    second: Dash Meter_675
+  - first:
+      213: 4842952393600736051
+    second: Dash Meter_676
+  - first:
+      213: -1137760913614677749
+    second: Dash Meter_677
+  - first:
+      213: -5424816020032718910
+    second: Dash Meter_678
+  - first:
+      213: -931534276091339988
+    second: Dash Meter_679
+  - first:
+      213: -3323462746287548771
+    second: Dash Meter_680
+  - first:
+      213: -7929469415238911423
+    second: Dash Meter_681
+  - first:
+      213: -1878790879327188447
+    second: Dash Meter_682
+  - first:
+      213: -2686476641676565754
+    second: Dash Meter_683
+  - first:
+      213: 9171124376292533580
+    second: Dash Meter_684
+  - first:
+      213: 6396773167921294778
+    second: Dash Meter_685
+  - first:
+      213: 6807170759084765118
+    second: Dash Meter_686
+  - first:
+      213: 4258637501272697601
+    second: Dash Meter_687
+  - first:
+      213: 6366484090627697872
+    second: Dash Meter_688
+  - first:
+      213: -3036133689989197375
+    second: Dash Meter_689
+  - first:
+      213: -3276862044767192347
+    second: Dash Meter_690
+  - first:
+      213: 6647666814472644915
+    second: Dash Meter_691
+  - first:
+      213: -8349573455514121594
+    second: Dash Meter_692
+  - first:
+      213: 5609529802537274831
+    second: Dash Meter_693
+  - first:
+      213: -5540807666093882254
+    second: Dash Meter_694
+  - first:
+      213: 3277223813237860504
+    second: Dash Meter_695
+  - first:
+      213: 9011350809914487873
+    second: Dash Meter_696
+  - first:
+      213: -4904238358612254697
+    second: Dash Meter_697
+  - first:
+      213: -6159590462421478584
+    second: Dash Meter_698
+  - first:
+      213: 201421748514015438
+    second: Dash Meter_699
+  - first:
+      213: -9046818419176920526
+    second: Dash Meter_700
+  - first:
+      213: 5794897131218986328
+    second: Dash Meter_701
+  - first:
+      213: -725976554895662686
+    second: Dash Meter_702
+  - first:
+      213: 5206812347276644880
+    second: Dash Meter_703
+  - first:
+      213: 8030900086884182326
+    second: Dash Meter_704
+  - first:
+      213: -8449146281100439951
+    second: Dash Meter_705
+  - first:
+      213: -8435853519277358317
+    second: Dash Meter_706
+  - first:
+      213: -2165283281200209884
+    second: Dash Meter_707
+  - first:
+      213: -2179541718700864393
+    second: Dash Meter_708
+  - first:
+      213: 3332627367164320827
+    second: Dash Meter_709
+  - first:
+      213: 2130895925842794734
+    second: Dash Meter_710
+  - first:
+      213: 4674217096377808245
+    second: Dash Meter_711
+  - first:
+      213: 2361122782294360346
+    second: Dash Meter_712
+  - first:
+      213: 2476300400936376311
+    second: Dash Meter_713
+  - first:
+      213: -8660272570011897356
+    second: Dash Meter_714
+  - first:
+      213: 4121752345768653297
+    second: Dash Meter_715
+  - first:
+      213: -4134105134404530504
+    second: Dash Meter_716
+  - first:
+      213: -8291012944865860191
+    second: Dash Meter_717
+  - first:
+      213: -4309119315012483367
+    second: Dash Meter_718
+  - first:
+      213: 8342110981930967495
+    second: Dash Meter_719
+  - first:
+      213: 7663786436680025283
+    second: Dash Meter_720
+  - first:
+      213: 5922956310625808303
+    second: Dash Meter_721
+  - first:
+      213: -3983726484626860727
+    second: Dash Meter_722
+  - first:
+      213: -1079963752703644106
+    second: Dash Meter_723
+  - first:
+      213: -8673862277691946553
+    second: Dash Meter_724
+  - first:
+      213: -3227859367436674975
+    second: Dash Meter_725
+  - first:
+      213: 3353796240252004783
+    second: Dash Meter_726
+  - first:
+      213: -3675223045627244069
+    second: Dash Meter_727
+  - first:
+      213: 6092452616355218893
+    second: Dash Meter_728
+  - first:
+      213: 1561014849272758287
+    second: Dash Meter_729
+  - first:
+      213: -4958313807920546707
+    second: Dash Meter_730
+  - first:
+      213: -3839803064994317389
+    second: Dash Meter_731
+  - first:
+      213: 574232675634177365
+    second: Dash Meter_732
+  - first:
+      213: -11824529650880899
+    second: Dash Meter_733
+  - first:
+      213: -5909398996640988752
+    second: Dash Meter_734
+  - first:
+      213: 6614691693968499864
+    second: Dash Meter_735
+  - first:
+      213: -8974476873379410912
+    second: Dash Meter_736
+  - first:
+      213: -1005611791048009546
+    second: Dash Meter_737
+  - first:
+      213: 345629085528967967
+    second: Dash Meter_738
+  - first:
+      213: 2509169481001694159
+    second: Dash Meter_739
+  - first:
+      213: -4168757637041701037
+    second: Dash Meter_740
+  - first:
+      213: 7905314968775873336
+    second: Dash Meter_741
+  - first:
+      213: -9076368158782922344
+    second: Dash Meter_742
+  - first:
+      213: -5421056685177982640
+    second: Dash Meter_743
+  - first:
+      213: 5093972816412101880
+    second: Dash Meter_744
+  - first:
+      213: 8078762220316485503
+    second: Dash Meter_745
+  - first:
+      213: 3805859631699305732
+    second: Dash Meter_746
+  - first:
+      213: -4616640720332069126
+    second: Dash Meter_747
+  - first:
+      213: -7050730286027541009
+    second: Dash Meter_748
+  - first:
+      213: 6036679720500888268
+    second: Dash Meter_749
+  - first:
+      213: -7492790825669597557
+    second: Dash Meter_750
+  - first:
+      213: 1354004263930252206
+    second: Dash Meter_751
+  - first:
+      213: 7186200372550120585
+    second: Dash Meter_752
+  - first:
+      213: -8214055948790864629
+    second: Dash Meter_753
+  - first:
+      213: 3332830352952267788
+    second: Dash Meter_754
+  - first:
+      213: -8028360029914514487
+    second: Dash Meter_755
+  - first:
+      213: -8038888456524576918
+    second: Dash Meter_756
+  - first:
+      213: -5301120653006814922
+    second: Dash Meter_757
+  - first:
+      213: -4103869270852647760
+    second: Dash Meter_758
+  - first:
+      213: 8373862339850017692
+    second: Dash Meter_759
+  - first:
+      213: -3875301060711570831
+    second: Dash Meter_760
+  - first:
+      213: 8417666296134208738
+    second: Dash Meter_761
+  - first:
+      213: -3450433004924820783
+    second: Dash Meter_762
+  - first:
+      213: -1277222148543414791
+    second: Dash Meter_763
+  - first:
+      213: -5149120488112331388
+    second: Dash Meter_764
+  - first:
+      213: 2411205835369630847
+    second: Dash Meter_765
+  - first:
+      213: 7527780125967395502
+    second: Dash Meter_766
+  - first:
+      213: -6373195242119903665
+    second: Dash Meter_767
+  - first:
+      213: -8242510038941408602
+    second: Dash Meter_768
+  - first:
+      213: 2110940776483190220
+    second: Dash Meter_769
+  - first:
+      213: -4784658701492675348
+    second: Dash Meter_770
+  - first:
+      213: 6505076634389086262
+    second: Dash Meter_771
+  - first:
+      213: 3874493117000402270
+    second: Dash Meter_772
+  - first:
+      213: -7406161264993116386
+    second: Dash Meter_773
+  - first:
+      213: -3234016704085955084
+    second: Dash Meter_774
+  - first:
+      213: 6213933569069740878
+    second: Dash Meter_775
+  - first:
+      213: -5129035534996219203
+    second: Dash Meter_776
+  - first:
+      213: -678843913511334103
+    second: Dash Meter_777
+  - first:
+      213: -7782752065967827483
+    second: Dash Meter_778
+  - first:
+      213: -1848146977716516647
+    second: Dash Meter_779
+  - first:
+      213: 3537981986228091204
+    second: Dash Meter_780
+  - first:
+      213: -5369337426835502657
+    second: Dash Meter_781
+  - first:
+      213: 6393995458805461053
+    second: Dash Meter_782
+  - first:
+      213: 621136826790198095
+    second: Dash Meter_783
+  - first:
+      213: -8862650692259247655
+    second: Dash Meter_784
+  - first:
+      213: 1819744160618315629
+    second: Dash Meter_785
+  - first:
+      213: 5419617469464365173
+    second: Dash Meter_786
+  - first:
+      213: -7649589080980572950
+    second: Dash Meter_787
+  - first:
+      213: -2778393883516790791
+    second: Dash Meter_788
+  - first:
+      213: -9047038558107000095
+    second: Dash Meter_789
+  - first:
+      213: 3999607005561947883
+    second: Dash Meter_790
+  - first:
+      213: -2671200367901909578
+    second: Dash Meter_791
+  - first:
+      213: -1157832226971555699
+    second: Dash Meter_792
+  - first:
+      213: -3083840357963671215
+    second: Dash Meter_793
+  - first:
+      213: 7683209441667686420
+    second: Dash Meter_794
+  - first:
+      213: -2078776802573932452
+    second: Dash Meter_795
+  - first:
+      213: -3008485181599491933
+    second: Dash Meter_796
+  - first:
+      213: 5781444668266203633
+    second: Dash Meter_797
+  - first:
+      213: -5822149117194639460
+    second: Dash Meter_798
+  - first:
+      213: -8852384131221962972
+    second: Dash Meter_799
+  - first:
+      213: -7333258885467354209
+    second: Dash Meter_800
+  - first:
+      213: 6944615018510371973
+    second: Dash Meter_801
+  - first:
+      213: -4872576708029964494
+    second: Dash Meter_802
+  - first:
+      213: 3432025820929255507
+    second: Dash Meter_803
+  - first:
+      213: 2349894363770359864
+    second: Dash Meter_804
+  - first:
+      213: 3713838277423384188
+    second: Dash Meter_805
+  - first:
+      213: -1563763734710967877
+    second: Dash Meter_806
+  - first:
+      213: 5924566717814113319
+    second: Dash Meter_807
+  - first:
+      213: -4758697044318986885
+    second: Dash Meter_808
+  - first:
+      213: -6171161140655906236
+    second: Dash Meter_809
+  - first:
+      213: -5372239178412713128
+    second: Dash Meter_810
+  - first:
+      213: 2961990328206077865
+    second: Dash Meter_811
+  - first:
+      213: -5313695985024052943
+    second: Dash Meter_812
+  - first:
+      213: 4894691489544423777
+    second: Dash Meter_813
+  - first:
+      213: -2123379285064606631
+    second: Dash Meter_814
+  - first:
+      213: 8563116782590421243
+    second: Dash Meter_815
+  - first:
+      213: -8285502393046241692
+    second: Dash Meter_816
+  - first:
+      213: 1447271633010029821
+    second: Dash Meter_817
+  - first:
+      213: -6494006496195546389
+    second: Dash Meter_818
+  - first:
+      213: 1418101042392486336
+    second: Dash Meter_819
+  - first:
+      213: 806561326083110062
+    second: Dash Meter_820
+  - first:
+      213: 6841351105530003919
+    second: Dash Meter_821
+  - first:
+      213: -2270596918792463312
+    second: Dash Meter_822
+  - first:
+      213: 1103351140183430965
+    second: Dash Meter_823
+  - first:
+      213: -2103957090037833838
+    second: Dash Meter_824
+  - first:
+      213: 7975939854532827069
+    second: Dash Meter_825
+  - first:
+      213: -57435300401178266
+    second: Dash Meter_826
+  - first:
+      213: 8524339945922204693
+    second: Dash Meter_827
+  - first:
+      213: -8426493036851340815
+    second: Dash Meter_828
+  - first:
+      213: 8687135245334718761
+    second: Dash Meter_829
+  - first:
+      213: 5039423447009307546
+    second: Dash Meter_830
+  - first:
+      213: -6451590527815728575
+    second: Dash Meter_831
+  - first:
+      213: -3745366304476297473
+    second: Dash Meter_832
+  - first:
+      213: 2531005403972183865
+    second: Dash Meter_833
+  - first:
+      213: -5952251020703437494
+    second: Dash Meter_834
+  - first:
+      213: 8558699848738323146
+    second: Dash Meter_835
+  - first:
+      213: -7489982820827215505
+    second: Dash Meter_836
+  - first:
+      213: -2749223037707272187
+    second: Dash Meter_837
+  - first:
+      213: -4886321443518667802
+    second: Dash Meter_838
+  - first:
+      213: 8063745222741679994
+    second: Dash Meter_839
+  - first:
+      213: -383156577417633084
+    second: Dash Meter_840
+  - first:
+      213: 786921962216382306
+    second: Dash Meter_841
+  - first:
+      213: -96460907192525434
+    second: Dash Meter_842
+  - first:
+      213: -5630824721475806378
+    second: Dash Meter_843
+  - first:
+      213: -8054964782234892316
+    second: Dash Meter_844
+  - first:
+      213: 5488175409934898203
+    second: Dash Meter_845
+  - first:
+      213: -3539736643787576185
+    second: Dash Meter_846
+  - first:
+      213: 882621401732037095
+    second: Dash Meter_847
+  - first:
+      213: -5398692822986642989
+    second: Dash Meter_848
+  - first:
+      213: 542095265460995630
+    second: Dash Meter_849
+  - first:
+      213: 675681396631020143
+    second: Dash Meter_850
+  - first:
+      213: -5846987899313319797
+    second: Dash Meter_851
+  - first:
+      213: 6135511093708967776
+    second: Dash Meter_852
+  - first:
+      213: 6151407471519223422
+    second: Dash Meter_853
+  - first:
+      213: -7522779098127681453
+    second: Dash Meter_854
+  - first:
+      213: 95064724616569472
+    second: Dash Meter_855
+  - first:
+      213: -1083180716281311946
+    second: Dash Meter_856
+  - first:
+      213: -6211977686467776516
+    second: Dash Meter_857
+  - first:
+      213: 3652496953134524144
+    second: Dash Meter_858
+  - first:
+      213: 7035564386756806579
+    second: Dash Meter_859
+  - first:
+      213: -3998589289811924073
+    second: Dash Meter_860
+  - first:
+      213: -2943950689001024676
+    second: Dash Meter_861
+  - first:
+      213: -6051454677862890040
+    second: Dash Meter_862
+  - first:
+      213: -6299294627585810908
+    second: Dash Meter_863
+  - first:
+      213: -8587954287880250877
+    second: Dash Meter_864
+  - first:
+      213: 8530957551218341342
+    second: Dash Meter_865
+  - first:
+      213: 8644553869259999083
+    second: Dash Meter_866
+  - first:
+      213: -4961737140198025390
+    second: Dash Meter_867
+  - first:
+      213: 184087856636834404
+    second: Dash Meter_868
+  - first:
+      213: 353351872225283957
+    second: Dash Meter_869
+  - first:
+      213: 3213651535512597606
+    second: Dash Meter_870
+  - first:
+      213: 1256713058863822570
+    second: Dash Meter_871
+  - first:
+      213: -7486564983788598254
+    second: Dash Meter_872
+  - first:
+      213: 5736723493763234923
+    second: Dash Meter_873
+  - first:
+      213: -3178865396796894616
+    second: Dash Meter_874
+  - first:
+      213: -1240897227772561015
+    second: Dash Meter_875
+  - first:
+      213: -8962136300628850858
+    second: Dash Meter_876
+  - first:
+      213: 5636880252371423787
+    second: Dash Meter_877
+  - first:
+      213: -3824395747344201626
+    second: Dash Meter_878
+  - first:
+      213: 1270495968378774685
+    second: Dash Meter_879
+  - first:
+      213: 6646338391885907084
+    second: Dash Meter_880
+  - first:
+      213: -4108959383943344383
+    second: Dash Meter_881
+  - first:
+      213: 7178971580209210938
+    second: Dash Meter_882
+  - first:
+      213: 6132942009098420439
+    second: Dash Meter_883
+  - first:
+      213: -262672886501382091
+    second: Dash Meter_884
+  - first:
+      213: -2620641940204343689
+    second: Dash Meter_885
+  - first:
+      213: 5963560767023517070
+    second: Dash Meter_886
+  - first:
+      213: -85041316250932510
+    second: Dash Meter_887
+  - first:
+      213: 3813457695816219545
+    second: Dash Meter_888
+  - first:
+      213: -3196057079366424794
+    second: Dash Meter_889
+  - first:
+      213: 5918855406823857046
+    second: Dash Meter_890
+  - first:
+      213: 1378819780689114490
+    second: Dash Meter_891
+  - first:
+      213: 1748963322549211446
+    second: Dash Meter_892
+  - first:
+      213: -2842347730881268961
+    second: Dash Meter_893
+  - first:
+      213: 7929388922003271363
+    second: Dash Meter_894
+  - first:
+      213: -1317798573061804696
+    second: Dash Meter_895
+  - first:
+      213: 4305904864235696438
+    second: Dash Meter_896
+  - first:
+      213: 8183350569648045214
+    second: Dash Meter_897
+  - first:
+      213: -2683245231834882587
+    second: Dash Meter_898
+  - first:
+      213: -6614586909510725144
+    second: Dash Meter_899
+  - first:
+      213: 3039527397449779252
+    second: Dash Meter_900
+  - first:
+      213: -3577608257583738949
+    second: Dash Meter_901
+  - first:
+      213: 3261901125856848910
+    second: Dash Meter_902
+  - first:
+      213: -6776932822150564724
+    second: Dash Meter_903
+  - first:
+      213: -8508290816805594144
+    second: Dash Meter_904
+  - first:
+      213: 2533010512839348611
+    second: Dash Meter_905
+  - first:
+      213: 4953223601616510201
+    second: Dash Meter_906
+  - first:
+      213: -5057241304422344936
+    second: Dash Meter_907
+  - first:
+      213: 7648365840545967897
+    second: Dash Meter_908
+  - first:
+      213: 6507649367165689648
+    second: Dash Meter_909
+  - first:
+      213: 4992818906232422208
+    second: Dash Meter_910
+  - first:
+      213: 6434086387565585211
+    second: Dash Meter_911
+  - first:
+      213: 283783086210479462
+    second: Dash Meter_912
+  - first:
+      213: -7526407945213476396
+    second: Dash Meter_913
+  - first:
+      213: -1782766095541700522
+    second: Dash Meter_914
+  - first:
+      213: -5731550987729206691
+    second: Dash Meter_915
+  - first:
+      213: -2746312545327457279
+    second: Dash Meter_916
+  - first:
+      213: -7380271327470191744
+    second: Dash Meter_917
+  - first:
+      213: 6637988378735562479
+    second: Dash Meter_918
+  - first:
+      213: -3121383720089607116
+    second: Dash Meter_919
+  - first:
+      213: -4854670809344153762
+    second: Dash Meter_920
+  - first:
+      213: -7958881171377881982
+    second: Dash Meter_921
+  - first:
+      213: 8004629706751796821
+    second: Dash Meter_922
+  - first:
+      213: 5019815131433793952
+    second: Dash Meter_923
+  - first:
+      213: 7601338074254301969
+    second: Dash Meter_924
+  - first:
+      213: 801681717884760610
+    second: Dash Meter_925
+  - first:
+      213: 2903751219470373973
+    second: Dash Meter_926
+  - first:
+      213: -1010300349240230591
+    second: Dash Meter_927
+  - first:
+      213: 1964439774711856966
+    second: Dash Meter_928
+  - first:
+      213: 4636802335900608670
+    second: Dash Meter_929
+  - first:
+      213: -7242113495002839195
+    second: Dash Meter_930
+  - first:
+      213: 1985758056788900488
+    second: Dash Meter_931
+  - first:
+      213: -7421910000221145073
+    second: Dash Meter_932
+  - first:
+      213: -7797041027790751348
+    second: Dash Meter_933
+  - first:
+      213: -7074793022909819067
+    second: Dash Meter_934
+  - first:
+      213: 8583140120921960604
+    second: Dash Meter_935
+  - first:
+      213: -8180409666386150301
+    second: Dash Meter_936
+  - first:
+      213: 1637589070521785837
+    second: Dash Meter_937
+  - first:
+      213: -8112665735469669932
+    second: Dash Meter_938
+  - first:
+      213: 6103401187577481173
+    second: Dash Meter_939
+  - first:
+      213: -3354598497530443275
+    second: Dash Meter_940
+  - first:
+      213: -3129434378644829626
+    second: Dash Meter_941
+  - first:
+      213: -4518607357753024412
+    second: Dash Meter_942
+  - first:
+      213: 997137169379184393
+    second: Dash Meter_943
+  - first:
+      213: 528043422070913159
+    second: Dash Meter_944
+  - first:
+      213: -8926833209538300610
+    second: Dash Meter_945
+  - first:
+      213: 965660797652545692
+    second: Dash Meter_946
+  - first:
+      213: 4629423220381048718
+    second: Dash Meter_947
+  - first:
+      213: -459876120056211574
+    second: Dash Meter_948
+  - first:
+      213: 435442553147413425
+    second: Dash Meter_949
+  - first:
+      213: 5133958571224705625
+    second: Dash Meter_950
+  - first:
+      213: -5711415462304776510
+    second: Dash Meter_951
+  - first:
+      213: -2152462941768792624
+    second: Dash Meter_952
+  - first:
+      213: -303828782072040829
+    second: Dash Meter_953
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dash Meter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa5911167f753990800000000000000
+      internalID: -7406873867071169888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5120
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5478aa328dbc6e0800000000000000
+      internalID: -1816120377017416269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5120
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429fccc4f624b4a80800000000000000
+      internalID: -8481612427424892636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5120
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27996cd76cfe1eba0800000000000000
+      internalID: -6061299987671246478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5120
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014c007f0852990d0800000000000000
+      internalID: -3415657606553746416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5120
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aab644e6dac4370800000000000000
+      internalID: 8308206101697637011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4480
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67af9bdbf47a98320800000000000000
+      internalID: 2560761824064174710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4480
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e97d4d2c9b3b3740800000000000000
+      internalID: 5132761742279801321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4480
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1314726dc981514d0800000000000000
+      internalID: -3164596101271043791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_9
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4480
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7f29e9377816ea0800000000000000
+      internalID: -5881270707717736515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_10
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4480
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc4629dca45c9240800000000000000
+      internalID: 4799804404224380088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_11
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4480
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d885cc0049d9c0800000000000000
+      internalID: -3902017178541959917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef4e2a00a6664e0800000000000000
+      internalID: -1988785634472034747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3840
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9636345041a9ec4e0800000000000000
+      internalID: -1959459377081261207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3840
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e72fe58821e9b10800000000000000
+      internalID: 1990048462262140438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_15
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3840
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f38f1ed3471e500800000000000000
+      internalID: 423747649082507042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_16
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3840
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb385aef9f5e9840800000000000000
+      internalID: 5232724957487184895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_17
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3840
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa48d3d3b3201a20800000000000000
+      internalID: 3030961804480629410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e405829c067ac430800000000000000
+      internalID: 3803982631637681380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3200
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e79a8b5be12c65b0800000000000000
+      internalID: -5373882960623003680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_20
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3200
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7f1f054220a2130800000000000000
+      internalID: 3542646411880429559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_21
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1cabac2f01ced40800000000000000
+      internalID: 5614881470393532917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_22
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3200
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c09efe634795b220800000000000000
+      internalID: 2501071483954958533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_23
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3200
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9387796f2cee15c0800000000000000
+      internalID: -4242694110559370341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df29b8f166272a500800000000000000
+      internalID: 406012699358237437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2560
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3411ce7db7b06a0f0800000000000000
+      internalID: -1106184031941422781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_26
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2560
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d1bd9212d41f070800000000000000
+      internalID: 8138370806466682123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_27
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2560
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf9c9ba3d8d2b6e0800000000000000
+      internalID: -1823156495502762063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_28
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2560
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1844d6ffe9f8fad20800000000000000
+      internalID: 3292007765684077697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_29
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2560
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c055fc599283563f0800000000000000
+      internalID: -908257998587079412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0097c2fd11ee6360800000000000000
+      internalID: 7164911575936503820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_31
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1920
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4404b5e54a952f2b0800000000000000
+      internalID: -5552276828101853116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_32
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1920
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52c5c61f2f845cf0800000000000000
+      internalID: -264429045699722662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_33
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1920
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1236be980dfb656d0800000000000000
+      internalID: -3002001199207849183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_34
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1920
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5fc936d6c115af0800000000000000
+      internalID: -409514834965760514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_35
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1920
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9540cca8189f29a0800000000000000
+      internalID: -6255614125649410660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f73a7da25f0ba9b0800000000000000
+      internalID: -5067940107903158282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1280
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b363395f065dda130800000000000000
+      internalID: 3579751891243054651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_38
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1280
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7793a71a0eb164190800000000000000
+      internalID: -7978659038244488841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_39
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1280
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11338e62232b5cc90800000000000000
+      internalID: -7150112904909933807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_40
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1280
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dd372d97ea13f60800000000000000
+      internalID: 8012377050313907532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_41
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1280
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b2428e4998049f0800000000000000
+      internalID: -486237487113163984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8505e68d98db90120800000000000000
+      internalID: 2380642277781295192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_43
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 640
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c87d43ced0965070800000000000000
+      internalID: 8094816666678819013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4630c03308f25e680800000000000000
+      internalID: -8726516475301723292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_45
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 640
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d245f991e5aaf0800000000000000
+      internalID: -385654141709265973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_46
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 640
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e3209f7798335a0800000000000000
+      internalID: -6542734685267411344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_47
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 640
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d134dc2b0c3d13f0800000000000000
+      internalID: -928519929474043436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f126d5f4869e9410800000000000000
+      internalID: 1485790424883143161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash Meter_49
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 800
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde84fb2dbdd79260800000000000000
+      internalID: 7104390741756251871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

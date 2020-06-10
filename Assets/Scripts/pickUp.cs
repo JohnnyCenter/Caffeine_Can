@@ -9,6 +9,7 @@ public class pickUp : MonoBehaviour
 
     public int dropCount = 0;
     public int totalDropCount = 0;
+    public int saves = 0;
 
     private void Update()
     {
@@ -26,6 +27,12 @@ public class pickUp : MonoBehaviour
             Destroy(other.gameObject);
             dropCount += 1;
             totalDropCount += 1;
+        }
+
+        if(other.tag == "Cage")
+        {
+            Destroy(other.gameObject);
+            saves += 1;
         }
     }
 

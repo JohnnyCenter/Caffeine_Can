@@ -8,23 +8,26 @@ public class scoreController : MonoBehaviour
     private UIController uiController;
     [SerializeField]
     private pickUp pickups;
-    public int dropletScore, enemyScore, dashScore, baseScore;
-    public float currentScore;
-    public int killCount;
     [SerializeField]
     private playerController player;
+    public int dropletScore, enemyScore, saveScore, dashScore, baseScore, finalScore;
+    public float currentScore;
+    public int killCount;
 
     private void Update()
     {
         currentScore = (player.transform.position.x);
     }
 
-    void CalculateScore()
+    public void CalculateScore()
     {
-        baseScore = (int)currentScore * 100;
+        baseScore = ((int)currentScore * 100) + (uiController.dashTrack * 10000);
         dropletScore = pickups.totalDropCount * 1000;
         enemyScore = killCount * 5000;
-        dashScore = uiController.dashTrack * 10000;
+        //dashScore = uiController.dashTrack * 10000;
+        saveScore = pickups.saves * 15000;
+
+        finalScore = dashScore + enemyScore + dropletScore + baseScore + saveScore;
     }
 
 }

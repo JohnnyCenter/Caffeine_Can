@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class swipeControls : MonoBehaviour
 {
-    private bool swipeLeft, swipeRight, swipeUp, swipeDown;  //A bool for the four possible swipe directions
+    private bool swipeLeft, swipeRight, swipeUp, swipeDown, swiped;  //A bool for the four possible swipe directions
     [SerializeField]
     private float tapTime; //Differentiates between a tap and a swipe
     private bool tap = false;
@@ -18,6 +18,8 @@ public class swipeControls : MonoBehaviour
     public bool SwipeUp { get { return swipeUp; } }
     public bool SwipeDown { get { return swipeDown; } }
     public bool Tap { get { return tap; } }
+
+    public bool Swiped { get { return swiped; } }
     #endregion
 
     private void Update()
@@ -43,7 +45,7 @@ public class swipeControls : MonoBehaviour
         #endregion
 
         #region Swipe Delta
-        swipeDelta = Vector2.zero; //Resets swipeDelta
+        swipeDelta = Vector2.zero; //Spawns swipeDelta
         if (touching)
         {
             if (Input.touches.Length > 0)
@@ -54,6 +56,7 @@ public class swipeControls : MonoBehaviour
         #region Deadzone
         if (swipeDelta.magnitude > 50) //Creates a deadzone. The Integer determines the size of our deadzone. The deadzone determines how far we need to drag our finger for a swipe to register
         {
+            swiped = true;
             float x = swipeDelta.x; //Grabs the x position of swipeDelta and names it x
             float y = swipeDelta.y; //Grabs the y position of swipeDelta and names it y
             if (Mathf.Abs(x) > Mathf.Abs(y)) //We use Mathf absolute so that it includes positive and negative numbers. If x is larger than y then it's either a Left or a Right swipe
@@ -81,6 +84,8 @@ public class swipeControls : MonoBehaviour
 
             Reset(); //After we've done a swipe we reset everything when the finger leaves the screen
         }
+        else
+            swiped = false;
         #endregion
     }
 
