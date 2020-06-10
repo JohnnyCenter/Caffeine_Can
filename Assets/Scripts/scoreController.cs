@@ -24,7 +24,6 @@ public class scoreController : MonoBehaviour
         baseScore = ((int)currentScore * 100) + (uiController.dashTrack * 10000);
         dropletScore = pickups.totalDropCount * 1000;
         enemyScore = killCount * 5000;
-        //dashScore = uiController.dashTrack * 10000;
         saveScore = pickups.saves * 15000;
 
         finalScore = dashScore + enemyScore + dropletScore + baseScore + saveScore;

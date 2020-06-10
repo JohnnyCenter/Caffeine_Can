@@ -26,6 +26,8 @@ public class UIController : MonoBehaviour
     private Animator BeanAnim;
     [SerializeField]
     private scoreController score;
+    [SerializeField]
+    private pickUp PickUp;
     private float desiredNumber, initialNumber, currentNumber;
     private float animationTime = 0.5f;
 
@@ -94,7 +96,7 @@ public class UIController : MonoBehaviour
         BaseScore.text = score.baseScore.ToString();
         DropletScore.text = score.dropletScore.ToString();
         EnemyScore.text = score.enemyScore.ToString();
-        SaveScore.text = score.saveScore.ToString();
+        SaveScore.text = PickUp.saves + "/3";
         yield return new WaitForSeconds(2);
         AddToValue(score.finalScore); //Shows score
         yield return new WaitForSeconds(2);

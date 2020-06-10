@@ -9,4 +9,9 @@ public class tempSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene("Prototype");
     }
+
+    public void mainMenu()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
 }
