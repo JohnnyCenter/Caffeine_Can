@@ -8,6 +8,7 @@ public class cameraFollow : MonoBehaviour
 
     private Vector3 lastPlayerPosition; //Empty Vector that will determine where the player is
     private float distanceToMoveX, distanceToMoveY; //Empty float that calculates the distance between the camera and player
+    private float deadZoneTop, deadZoneBottom;
 
     public Camera cam;
 
@@ -25,7 +26,7 @@ public class cameraFollow : MonoBehaviour
         {
             Follow();
 
-            if (thePlayer.dashActive == true)
+            if (thePlayer.dashActive)
             {
                 cam.orthographicSize = 14;
             }
@@ -38,10 +39,11 @@ public class cameraFollow : MonoBehaviour
     {
         distanceToMoveX = thePlayer.transform.position.x - lastPlayerPosition.x; //Determines the distance between camerera and player on the x axis
 
-        transform.position = new Vector3(transform.position.x + distanceToMoveX, transform.position.y, transform.position.z); //Moves the camera to catch up with the player
+        //distanceToMoveY = thePlayer.transform.position.y - lastPlayerPosition.y;
+
+        transform.position = new Vector3(transform.position.x + distanceToMoveX, transform.position.y + distanceToMoveY, transform.position.z); //Moves the camera to catch up with the player
 
         lastPlayerPosition = thePlayer.transform.position; //Keeps updating the player's position
-
     }
 
     public void Win()
