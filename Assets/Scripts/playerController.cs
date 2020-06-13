@@ -15,6 +15,8 @@ public class playerController : MonoBehaviour
     [SerializeField]
     private float fallMultiplier;
     private Vector2 spawnPos;
+    [SerializeField]
+    private crashHandler cH;
     #endregion
 
     public swipeControls Swipe;
@@ -85,7 +87,7 @@ public class playerController : MonoBehaviour
         else
             anim.SetBool("Fall", false);
 
-        if (rb.velocity.y > 0)
+        if (rb.velocity.y > 0.1f)
             anim.SetBool("Leap", true);
         else
             anim.SetBool("Leap", false);
@@ -163,6 +165,7 @@ public class playerController : MonoBehaviour
     {
         invulnerable = true;
         rollCool = true;
+        cH.GetComponent<BoxCollider2D>().enabled = false;
         bc.size = new Vector2(1, 0.35f);
         anim.SetBool("Roll", true);
         yield return new WaitForSeconds(0.2f);
@@ -171,6 +174,7 @@ public class playerController : MonoBehaviour
         yield return new WaitForSeconds(rollTime);
         //Cast raycast above your head and don't go out of a roll until raycast is clear
         anim.SetBool("Roll", false);
+        cH.GetComponent<BoxCollider2D>().enabled = true;
         bc.offset = new Vector2(0, 0.08f);
         bc.size = new Vector2(1, 0.85f);
         invulnerable = false;
