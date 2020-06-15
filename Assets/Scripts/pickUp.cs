@@ -27,12 +27,16 @@ public class pickUp : MonoBehaviour
             Destroy(other.gameObject);
             dropCount += 1;
             totalDropCount += 1;
+
+            FindObjectOfType<audioManager>().Play("bubblesound22");
         }
 
         if(other.tag == "Cage")
         {
             Destroy(other.gameObject);
             saves += 1;
+
+            FindObjectOfType<audioManager>().Play("freebean");
         }
     }
 
