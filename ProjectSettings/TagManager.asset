@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Droplet
   - Cage
+  - Breakable
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - 
   - Platform
-  - 
+  - Enemy
   - 
   - 
   - 

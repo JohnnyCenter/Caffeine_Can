@@ -10,6 +10,13 @@ public class Victory : MonoBehaviour
     private playerController player;
     [SerializeField]
     private UIController uiController;
+    [SerializeField]
+    private Animator anim;
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
@@ -21,6 +28,7 @@ public class Victory : MonoBehaviour
     IEnumerator Sequence()
     {
         player.dead = true;
+        anim.SetTrigger("Win");
         yield return new WaitForSeconds(2);
         player.Stop();
         mainCamera.Win();

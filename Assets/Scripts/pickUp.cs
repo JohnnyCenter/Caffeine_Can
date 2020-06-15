@@ -16,7 +16,6 @@ public class pickUp : MonoBehaviour
         if (dropCount > 9)
         {
             Filled();
-            //Animation
         }
     }
 
@@ -27,16 +26,20 @@ public class pickUp : MonoBehaviour
             Destroy(other.gameObject);
             dropCount += 1;
             totalDropCount += 1;
+
+            FindObjectOfType<audioManager>().Play("bubblesound22");
         }
 
         if(other.tag == "Cage")
         {
             Destroy(other.gameObject);
             saves += 1;
+
+            FindObjectOfType<audioManager>().Play("freebean");
         }
     }
 
-    void Filled()
+    public void Filled()
     {
         uiController.dashCount += 1;
         dropCount = 0;

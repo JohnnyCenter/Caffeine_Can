@@ -22,6 +22,14 @@ public class crashHandler : MonoBehaviour
             else
                 StartCoroutine(Player.Knockback());
         }
+
+        if(other.tag == "Breakable")
+        {
+            if (Player.dashActive)
+                Destroy(other.gameObject);
+            else
+                StartCoroutine(Player.Knockback());
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
