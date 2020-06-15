@@ -186,6 +186,7 @@ public class playerController : MonoBehaviour
     {
         StopCoroutine(Roll());
         invulnerable = true;
+        transform.position = new Vector3(transform.position.x, transform.position.y + 0.05f, transform.position.z);
         dashActive = true; //Enables dash
         isRunning = false; //Disables running so that we can't perform other moves while dashing (jumping, rolling, vine attacking)
         anim.SetBool("Dash", true);
@@ -215,7 +216,7 @@ public class playerController : MonoBehaviour
         //StopAllCoroutines();
         isRunning = false;
         rb.constraints = RigidbodyConstraints2D.FreezeAll;
-        transform.position = new Vector3(transform.position.x - 3.5f, transform.position.y, transform.position.z);
+        transform.position = new Vector3(transform.position.x - 4f, transform.position.y, transform.position.z);
         yield return new WaitForSeconds(0.5f);
         transform.position = new Vector3(transform.position.x - 3.5f, transform.position.y, transform.position.z);
         yield return new WaitForSeconds(0.5f);

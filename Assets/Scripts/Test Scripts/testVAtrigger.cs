@@ -41,7 +41,7 @@ public class testVAtrigger : MonoBehaviour
         {
             Debug.Log("Target Acquired");
             TargetFound = true;
-            Player.GetComponent<testVA>().targetFound = true;
+            //Player.GetComponent<testVA>().targetFound = true;
         }
     }
     void Test()

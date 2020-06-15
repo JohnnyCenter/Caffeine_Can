@@ -16,7 +16,6 @@ public class pickUp : MonoBehaviour
         if (dropCount > 9)
         {
             Filled();
-            //Animation
         }
     }
 
@@ -36,7 +35,7 @@ public class pickUp : MonoBehaviour
         }
     }
 
-    void Filled()
+    public void Filled()
     {
         uiController.dashCount += 1;
         dropCount = 0;

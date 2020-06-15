@@ -17,8 +17,7 @@ public class Enemy : MonoBehaviour
         {
             if (player.invulnerable)
             {
-                Destroy(gameObject);
-                uiController.dashCount += 1;
+                KillEnemy();
             }
             else
             {
@@ -29,6 +28,7 @@ public class Enemy : MonoBehaviour
 
     void KillEnemy()
     {
+        Destroy(gameObject);
         uiController.dashCount += 1;
         Score.killCount += 1;
     }
