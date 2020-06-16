@@ -42,7 +42,7 @@ public class testVA : MonoBehaviour
     #endregion
 
     public GameObject Point;
-    private Vector3 attackPos; 
+    private Vector3 attackPos;
 
 
     private void Awake()
@@ -154,10 +154,11 @@ public class testVA : MonoBehaviour
     #region Vine Attack Function
     IEnumerator VineAttack()
     {
-        if (inRange)
-        {
+        if (inRange) 
+        { 
             GameObject target = GameObject.FindWithTag("Active Enemy");
-            RaycastHit2D collCheck = Physics2D.Linecast(Point.transform.position, target.transform.position);
+            LayerMask mask = LayerMask.GetMask("Default");
+            RaycastHit2D collCheck = Physics2D.Linecast(Point.transform.position, target.transform.position, mask);
             Debug.DrawLine(Point.transform.position, target.transform.position, Color.red);
 
             if (collCheck.collider != null)
