@@ -31,9 +31,9 @@ public class playerController : MonoBehaviour
     private UIController uiController;
     #endregion
 
-    private Rigidbody2D rb; //Names the Rigidbody component on the Player "rb"
+    public Rigidbody2D rb; //Names the Rigidbody component on the Player "rb"
     private BoxCollider2D bc;
-    private Animator anim;
+    public Animator anim;
 
     #region Bool Checks
     [Header("Bool Checks")]
@@ -56,7 +56,7 @@ public class playerController : MonoBehaviour
         spawnPos = new Vector3(-5, -5, 0);
         transform.position = spawnPos;
         jumpForce = CalculateJumpForce(Physics2D.gravity.magnitude, 25f);
-        Run();
+        StartCoroutine(Go());
     }
 
     private void FixedUpdate()
@@ -64,11 +64,15 @@ public class playerController : MonoBehaviour
         if (isRunning)
         {
             rb.velocity = new Vector2(moveSpeed, rb.velocity.y); //Makes the player autorun by adding velocity to the rigidbody
+            uiController.DashEffect.SetInteger("Dash Effect", 0);
+            uiController.dashEffect.enabled = false;
         }
 
         if (dashActive)
         {
             rb.velocity = new Vector2(dashSpeed, rb.velocity.y); //Changes from "moveSpeed" to "dashSpeed"
+            uiController.DashEffect.SetInteger("Dash Effect", 1);
+            uiController.dashEffect.enabled = true;
         }
 
         if (rb.velocity.y < 0)
@@ -205,7 +209,7 @@ public class playerController : MonoBehaviour
     {
         isRunning = false;
         dashActive = false;
-        //Play death animation
+        anim.SetTrigger("Death");
         dead = true;
         uiController.retryButton.gameObject.SetActive(true);
     }
@@ -220,6 +224,16 @@ public class playerController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         transform.position = new Vector3(transform.position.x - 3.5f, transform.position.y, transform.position.z);
         yield return new WaitForSeconds(0.5f);
+        Run();
+    }
+
+    IEnumerator Go()
+    {
+        uiController.UiElements.gameObject.SetActive(true);
+        uiController.Countdown.SetTrigger("Go");
+        uiController.DashEffect.SetInteger("Dash Effect", 1);
+        yield return new WaitForSeconds(3.5f);
+        anim.SetTrigger("Run");
         Run();
     }
 }

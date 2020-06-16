@@ -10,7 +10,6 @@ public class Victory : MonoBehaviour
     private playerController player;
     [SerializeField]
     private UIController uiController;
-    [SerializeField]
     private Animator anim;
 
     private void Awake()

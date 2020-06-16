@@ -11,6 +11,8 @@ public class pickUp : MonoBehaviour
     public int totalDropCount = 0;
     public int saves = 0;
 
+    public Animator cageAnim;
+
     private void Update()
     {
         if (dropCount > 9)
@@ -32,7 +34,8 @@ public class pickUp : MonoBehaviour
 
         if(other.tag == "Cage")
         {
-            Destroy(other.gameObject);
+            cageAnim = other.GetComponent<Animator>();
+            cageAnim.SetTrigger("Saved");
             saves += 1;
 
             FindObjectOfType<audioManager>().Play("freebean");

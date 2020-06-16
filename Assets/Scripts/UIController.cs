@@ -10,6 +10,8 @@ public class UIController : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI dashCounter;
     public int dashCount, dashTrack;
+    public Image dashEffect;
+    public Animator DashEffect;
     #endregion
     #region Score Text
     public TextMeshProUGUI FinalScore;
@@ -18,10 +20,11 @@ public class UIController : MonoBehaviour
     public TextMeshProUGUI EnemyScore;
     public TextMeshProUGUI SaveScore;
     #endregion
-    [SerializeField]
     public Button retryButton;
     public CanvasGroup resultScreen;
     public CanvasGroup UiElements;
+    public Image Go;
+    public Animator Countdown;
     public Image Bean;
     private Animator BeanAnim;
     [SerializeField]
@@ -34,6 +37,8 @@ public class UIController : MonoBehaviour
     private void Awake()
     {
         BeanAnim = Bean.GetComponent<Animator>();
+        DashEffect = dashEffect.GetComponent<Animator>();
+        Countdown = Go.GetComponent<Animator>();
     }
 
     private void Start()

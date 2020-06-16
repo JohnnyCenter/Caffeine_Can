@@ -56,7 +56,11 @@ public class cameraFollow : MonoBehaviour
         }
 
         if (thePlayer.transform.position.y < -10)
+        {
+            thePlayer.anim.SetInteger("DeathType", 2);
+            thePlayer.rb.constraints = RigidbodyConstraints2D.FreezePosition;
             thePlayer.Kill();
+        }
     }
 
     void Follow()

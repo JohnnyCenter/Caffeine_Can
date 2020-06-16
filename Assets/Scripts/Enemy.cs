@@ -21,6 +21,7 @@ public class Enemy : MonoBehaviour
             }
             else
             {
+                player.anim.SetInteger("DeathType", 1);
                 player.Kill();
             }     
         }
