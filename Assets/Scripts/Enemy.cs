@@ -23,6 +23,8 @@ public class Enemy : MonoBehaviour
             {
                 player.anim.SetInteger("DeathType", 1);
                 player.Kill();
+
+                FindObjectOfType<audioManager>().Play("enemyhit");
             }     
         }
     }

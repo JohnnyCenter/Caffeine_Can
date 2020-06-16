@@ -1,8 +1,12 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class audioManager : MonoBehaviour
 {
+
+    public AudioMixerGroup audioMixer;
+
     public sound[] sounds;
 
 
@@ -16,6 +20,8 @@ public class audioManager : MonoBehaviour
 
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
+
+            s.source.outputAudioMixerGroup = audioMixer;
         }
     }
 
