@@ -6,13 +6,10 @@ public class testEnemy : MonoBehaviour
 {
     [SerializeField]
     private testVA player;
-    [SerializeField]
-    private Rigidbody2D rb;
     private SpriteRenderer sr;
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
     }
 
@@ -31,7 +28,6 @@ public class testEnemy : MonoBehaviour
         {
             transform.gameObject.tag = "Enemy";
         }
-        //rb.velocity = new Vector2(-10, rb.velocity.y);
         if (player.inRange && player.onPlatform == false)
             sr.color = new Color(255f, 0f, 255f, 255f);
         else
@@ -48,7 +44,7 @@ public class testEnemy : MonoBehaviour
             }
             else if (player.attack)
             {
-                player.rb.velocity = new Vector2(rb.velocity.x, 50);
+                player.rb.velocity = new Vector2(player.rb.velocity.x, 50);
                 Destroy(gameObject);
             }
             else
@@ -61,12 +57,10 @@ public class testEnemy : MonoBehaviour
     private void OnBecameInvisible()
     {
         player.inRange = false;
-        Debug.Log("Out");
     }
 
     private void OnBecameVisible()
     {
         player.inRange = true;
-        Debug.Log("In");
     }
 }

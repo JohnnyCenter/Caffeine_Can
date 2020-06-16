@@ -42,7 +42,12 @@ public class playerController : MonoBehaviour
     public bool dashActive = false; //Bool to check if the Player is dashing
     public bool dead = false;
     public bool invulnerable = false;
+    public bool inRange = false;
+    public bool attack = false;
     #endregion
+
+    public GameObject Point;
+    private Vector3 attackPos;
 
     private void Awake()
     {
@@ -73,6 +78,11 @@ public class playerController : MonoBehaviour
             rb.velocity = new Vector2(dashSpeed, rb.velocity.y); //Changes from "moveSpeed" to "dashSpeed"
             uiController.DashEffect.SetInteger("Dash Effect", 1);
             uiController.dashEffect.enabled = true;
+        }
+
+        if (attack)
+        {
+            transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), attackPos, 5);
         }
 
         if (rb.velocity.y < 0)
@@ -110,7 +120,7 @@ public class playerController : MonoBehaviour
                     if (onPlatform) //If we're on the ground we jump
                         Jump();
                     else
-                        vineAttack(); //If we're in the air we perform a Vine Attack
+                        StartCoroutine(VineAttack()); //If we're in the air we perform a Vine Attack
                 }
 
                 if (Swipe.SwipeDown) //If we swipe down we perform a roll
@@ -158,9 +168,29 @@ public class playerController : MonoBehaviour
     #endregion
 
     #region Vine Attack Function
-    void vineAttack()
+    IEnumerator VineAttack()
     {
-        Debug.Log("Attacked");
+        if (inRange)
+        {
+            GameObject target = GameObject.FindWithTag("Active Enemy");
+            RaycastHit2D collCheck = Physics2D.Linecast(Point.transform.position, target.transform.position);
+            Debug.DrawLine(Point.transform.position, target.transform.position, Color.red);
+
+            if (collCheck.collider != null)
+            {
+                if (collCheck.collider.tag == "Active Enemy")
+                {
+                    attack = true;
+                    isRunning = false;
+                    attackPos = target.transform.position;
+                    Debug.Log("Somehow this garbage worked");
+                    yield return new WaitForSeconds(0.5f);
+                    attack = false;
+                    isRunning = true;
+                }
+            }
+        }
+        yield return null;
     }
     #endregion
 
