@@ -26,14 +26,6 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        if (player.inRange)
-        {
-            transform.gameObject.tag = "Active Enemy";
-        }
-        else
-        {
-            transform.gameObject.tag = "Enemy";
-        }
         if (player.inRange && player.onPlatform == false)
             sr.color = new Color(255f, 0f, 255f, 255f);
         else
@@ -70,6 +62,10 @@ public class Enemy : MonoBehaviour
 
     private void OnBecameVisible()
     {
+        if (!GameObject.FindGameObjectWithTag("Active Enemy"))
+        {
+            transform.tag = "Active Enemy";
+        }
         player.inRange = true;
     }
 

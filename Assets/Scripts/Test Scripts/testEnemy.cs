@@ -20,14 +20,6 @@ public class testEnemy : MonoBehaviour
 
     private void Update()
     {
-        if (player.inRange)
-        {
-            transform.gameObject.tag = "Active Enemy";
-        }
-        else
-        {
-            transform.gameObject.tag = "Enemy";
-        }
         if (player.inRange && player.onPlatform == false)
             sr.color = new Color(255f, 0f, 255f, 255f);
         else
@@ -40,12 +32,14 @@ public class testEnemy : MonoBehaviour
         {
             if (player.invulnerable)
             {
+                player.inRange = false;
                 Destroy(gameObject);
             }
             else if (player.attack)
             {
                 player.rb.velocity = new Vector2(player.rb.velocity.x, 50);
                 Destroy(gameObject);
+                player.inRange = false;
             }
             else
             {
@@ -54,13 +48,18 @@ public class testEnemy : MonoBehaviour
         }
     }
 
+
     private void OnBecameInvisible()
-    {
-        player.inRange = false;
-    }
+     {
+         player.inRange = false;
+     }
 
     private void OnBecameVisible()
-    {
-        player.inRange = true;
-    }
+     {
+        if(!GameObject.FindGameObjectWithTag("Active Enemy"))
+        {
+            transform.tag = "Active Enemy";
+        }
+         player.inRange = true;
+     }
 }

@@ -174,7 +174,6 @@ public class playerController : MonoBehaviour
         {
             GameObject target = GameObject.FindWithTag("Active Enemy");
             RaycastHit2D collCheck = Physics2D.Linecast(Point.transform.position, target.transform.position);
-            Debug.DrawLine(Point.transform.position, target.transform.position, Color.red);
 
             if (collCheck.collider != null)
             {

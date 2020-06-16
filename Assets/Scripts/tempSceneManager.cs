@@ -7,10 +7,15 @@ public class tempSceneManager : MonoBehaviour
 {
     public void Restart()
     {
-        SceneManager.LoadScene("Prototype");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void mainMenu()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
+
+    public void Return()
     {
         SceneManager.LoadScene("StartScreen");
     }
