@@ -27,7 +27,7 @@ public class testVA : MonoBehaviour
     private float dashTime; //How long the Player dashes
     #endregion
 
-    private Rigidbody2D rb; //Names the Rigidbody component on the Player "rb"
+    public Rigidbody2D rb; //Names the Rigidbody component on the Player "rb"
     private BoxCollider2D bc;
 
     #region Bool Checks
@@ -38,10 +38,11 @@ public class testVA : MonoBehaviour
     public bool dead = false;
     public bool invulnerable = false;
     public bool inRange = false;
+    public bool attack = false;
     #endregion
 
-    RaycastHit2D enemyHit;
-    [SerializeField]
+    public GameObject Point;
+    private Vector3 attackPos; 
 
 
     private void Awake()
@@ -68,6 +69,11 @@ public class testVA : MonoBehaviour
         if (dashActive)
         {
             rb.velocity = new Vector2(dashSpeed, rb.velocity.y); //Changes from "moveSpeed" to "dashSpeed"
+        }
+
+        if (attack)
+        {
+            transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), attackPos, 10);
         }
 
         if (rb.velocity.y < 0)
@@ -97,7 +103,8 @@ public class testVA : MonoBehaviour
                     if (onPlatform) //If we're on the ground we jump
                         Jump();
                     else
-                        vineAttack(); //If we're in the air we perform a Vine Attack
+                        //vineAttack(); //If we're in the air we perform a Vine Attack
+                        StartCoroutine(VineAttack());
                 }
 
                 if (Swipe.SwipeDown) //If we swipe down we perform a roll
@@ -145,14 +152,29 @@ public class testVA : MonoBehaviour
     #endregion
 
     #region Vine Attack Function
-    void vineAttack()
+    IEnumerator VineAttack()
     {
-        //Vector3 fwd = 
-
         if (inRange)
         {
+            GameObject target = GameObject.FindWithTag("Active Enemy");
+            RaycastHit2D collCheck = Physics2D.Linecast(Point.transform.position, target.transform.position);
+            Debug.DrawLine(Point.transform.position, target.transform.position, Color.red);
 
+            if (collCheck.collider != null)
+            {
+                if(collCheck.collider.tag == "Active Enemy")
+                {
+                    attack = true;
+                    isRunning = false;
+                    attackPos = target.transform.position;
+                    Debug.Log("Somehow this garbage worked");
+                    yield return new WaitForSeconds(0.5f);
+                    attack = false;
+                    isRunning = true;
+                }
+            }
         }
+        yield return null;
     }
     #endregion
 
