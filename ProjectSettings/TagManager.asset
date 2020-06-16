@@ -9,6 +9,8 @@ TagManager:
   - Droplet
   - Cage
   - Breakable
+  - Ground
+  - Active Enemy
   layers:
   - Default
   - TransparentFX

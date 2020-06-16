@@ -243,7 +243,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76170486}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -1876,6 +1876,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dash Effect
       objectReference: {fileID: 0}
+    - target: {fileID: 7577473208345718544, guid: 11ec2105c8f459c4586acec309b9c197,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7577473208345718547, guid: 11ec2105c8f459c4586acec309b9c197,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2367,7 +2372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1070989249
 RectTransform:
   m_ObjectHideFlags: 0

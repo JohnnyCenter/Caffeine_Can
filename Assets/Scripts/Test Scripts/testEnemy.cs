@@ -8,7 +8,6 @@ public class testEnemy : MonoBehaviour
     private testVA player;
     [SerializeField]
     private Rigidbody2D rb;
-    [SerializeField]
     private SpriteRenderer sr;
 
     private void Awake()
@@ -24,6 +23,14 @@ public class testEnemy : MonoBehaviour
 
     private void Update()
     {
+        if (player.inRange)
+        {
+            transform.gameObject.tag = "Active Enemy";
+        }
+        else
+        {
+            transform.gameObject.tag = "Enemy";
+        }
         //rb.velocity = new Vector2(-10, rb.velocity.y);
         if (player.inRange && player.onPlatform == false)
             sr.color = new Color(255f, 0f, 255f, 255f);
@@ -37,6 +44,11 @@ public class testEnemy : MonoBehaviour
         {
             if (player.invulnerable)
             {
+                Destroy(gameObject);
+            }
+            else if (player.attack)
+            {
+                player.rb.velocity = new Vector2(rb.velocity.x, 50);
                 Destroy(gameObject);
             }
             else
@@ -56,15 +68,5 @@ public class testEnemy : MonoBehaviour
     {
         player.inRange = true;
         Debug.Log("In");
-    }
-    IEnumerator InSight()
-    {
-        Debug.Log("GO");
-        player.inRange = true;
-        if (player.dashActive)
-            yield return new WaitForSeconds(1.5f);
-        else
-            yield return new WaitForSeconds(3f);
-        Destroy(gameObject);
     }
 }
