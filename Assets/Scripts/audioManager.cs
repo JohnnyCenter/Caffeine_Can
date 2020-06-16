@@ -30,4 +30,8 @@ public class audioManager : MonoBehaviour
         sound s = Array.Find(sounds, zound => zound.name == name);
         s.source.Play();
     }
+
+    internal class aud
+    {
+    }
 }
