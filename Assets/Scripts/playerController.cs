@@ -60,8 +60,9 @@ public class playerController : MonoBehaviour
     {
         spawnPos = new Vector3(-5, -5, 0);
         transform.position = spawnPos;
-        jumpForce = CalculateJumpForce(Physics2D.gravity.magnitude, 25f);
-        StartCoroutine(Go());
+        jumpForce = CalculateJumpForce(Physics2D.gravity.magnitude, 30f);
+        //StartCoroutine(Go());
+        Run();
     }
 
     private void FixedUpdate()
@@ -140,6 +141,7 @@ public class playerController : MonoBehaviour
     [ContextMenu("Run")]
     void Run()
     {
+        anim.SetTrigger("Run");
         isRunning = true; //Sets the bool isRunning true
         rb.constraints = RigidbodyConstraints2D.None; //Unfreezes all 
         rb.constraints = RigidbodyConstraints2D.FreezeRotation; //Freezes the rotation so that the player doesn't rotate while running
