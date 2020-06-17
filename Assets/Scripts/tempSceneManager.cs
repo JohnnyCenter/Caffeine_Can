@@ -46,4 +46,14 @@ public class tempSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene("CutScene3");
     }
+
+    public void Level4()
+    {
+        SceneManager.LoadScene("CutScene3");
+    }
+
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("Lv11");
+    }
 }
