@@ -59,6 +59,7 @@ public class Enemy : MonoBehaviour
     {
         transform.tag = "Enemy";
         player.inRange = false;
+        transform.tag = "Enemy";
     }
 
     private void OnBecameVisible()

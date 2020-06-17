@@ -8,10 +8,28 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/StartScreen.unity
     guid: 92719326ebd18b542a2cb486f3558f15
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Prototype.unity
     guid: 854fd1f349f437c4da90dfc400722cfa
+  - enabled: 1
+    path: Assets/Scenes/Lv1/CutScene1.unity
+    guid: 673e5de4b7b51aa40a60c0325c65acb2
+  - enabled: 1
+    path: Assets/Scenes/Lv1/Lv12.unity
+    guid: bf6338ae2a98fb34b8de110f60db0189
+  - enabled: 1
+    path: Assets/Scenes/Lv1/Lv11.unity
+    guid: e86c3ba7dde809148aa92aaa376b489f
+  - enabled: 1
+    path: Assets/Scenes/Lv2/Cutscene2.unity
+    guid: 5396823a5d74af54bbb57eb06523cccc
+  - enabled: 1
+    path: Assets/Scenes/Lv2/Lv22.unity
+    guid: b2b2437476660554b8b69b0087f5ef27
+  - enabled: 1
+    path: Assets/Scenes/Lv2/Cutscene3.unity
+    guid: 82db755e55332694caf7548a33f23256
   m_configObjects: {}

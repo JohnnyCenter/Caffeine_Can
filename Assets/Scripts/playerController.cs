@@ -49,6 +49,9 @@ public class playerController : MonoBehaviour
     public GameObject Point;
     private Vector3 attackPos;
 
+    [SerializeField]
+    private GameObject music;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>(); //Grabs the Rigidbody component from the gameobject (the player)
@@ -61,6 +64,7 @@ public class playerController : MonoBehaviour
         spawnPos = new Vector3(-5, -5, 0);
         transform.position = spawnPos;
         jumpForce = CalculateJumpForce(Physics2D.gravity.magnitude, 30f);
+        music.gameObject.SetActive(false);
         //StartCoroutine(Go());
         Run();
     }
@@ -246,6 +250,7 @@ public class playerController : MonoBehaviour
         anim.SetTrigger("Death");
         dead = true;
         uiController.retryButton.gameObject.SetActive(true);
+        music.SetActive(false);
     }
 
     [ContextMenu("Crash")]
@@ -263,6 +268,7 @@ public class playerController : MonoBehaviour
 
     IEnumerator Go()
     {
+        music.SetActive(true);
         uiController.UiElements.gameObject.SetActive(true);
         uiController.Countdown.SetTrigger("Go");
         uiController.DashEffect.SetInteger("Dash Effect", 1);
