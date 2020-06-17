@@ -121,7 +121,10 @@ public class playerController : MonoBehaviour
                     if (onPlatform) //If we're on the ground we jump
                         Jump();
                     else
+                    {
                         StartCoroutine(VineAttack()); //If we're in the air we perform a Vine Attack
+                        Debug.Log("Tapped");
+                    }
                 }
 
                 if (Swipe.SwipeDown) //If we swipe down we perform a roll

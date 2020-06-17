@@ -2487,7 +2487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1347be55dd04df64b8d64146a1c550a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PickUp: {fileID: 0}
+  PickUp: {fileID: 1149053777}
   Count: 0
 --- !u!1 &1070989248
 GameObject:
@@ -4686,9 +4686,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 99
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 8827236921244947, guid: ec8c0dc4d76af784fbc9f069c729cda9,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

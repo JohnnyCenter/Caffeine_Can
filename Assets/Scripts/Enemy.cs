@@ -57,6 +57,7 @@ public class Enemy : MonoBehaviour
 
     private void OnBecameInvisible()
     {
+        transform.tag = "Enemy";
         player.inRange = false;
     }
 
