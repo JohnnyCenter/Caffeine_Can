@@ -1938,7 +1938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &845281279
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6618,6 +6618,11 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 503840526}
+    - target: {fileID: 4059375353879452966, guid: 72f72d6e52f63ae4a970197d27ed4b92,
+        type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 845281278}
     - target: {fileID: 7140755475213896923, guid: 72f72d6e52f63ae4a970197d27ed4b92,
         type: 3}
       propertyPath: m_IsActive
@@ -6641,6 +6646,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Victory Portal 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413496193701986918, guid: 97515a57efbfdf248ac4a789fc1b492b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2413496193701986922, guid: 97515a57efbfdf248ac4a789fc1b492b,
         type: 3}

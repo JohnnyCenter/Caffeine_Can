@@ -11,8 +11,6 @@ public class menuController : MonoBehaviour
     [SerializeField]
     private CanvasGroup levelSelect;
     [SerializeField]
-    private CanvasGroup chooseStage;
-    [SerializeField]
     private CanvasGroup controls1;
     [SerializeField]
     private CanvasGroup controls2;
@@ -24,7 +22,6 @@ public class menuController : MonoBehaviour
     {
         mainMenu.gameObject.SetActive(true);
         levelSelect.gameObject.SetActive(false);
-        chooseStage.gameObject.SetActive(false);
         controls1.gameObject.SetActive(false);
         controls2.gameObject.SetActive(false);
     }
@@ -35,7 +32,6 @@ public class menuController : MonoBehaviour
         {
             mainMenu.gameObject.SetActive(true);
             levelSelect.gameObject.SetActive(false);
-            chooseStage.gameObject.SetActive(false);
             controls1.gameObject.SetActive(false);
             controls2.gameObject.SetActive(false);
         }

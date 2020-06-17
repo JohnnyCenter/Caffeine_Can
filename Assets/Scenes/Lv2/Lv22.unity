@@ -29872,6 +29872,11 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 503840526}
+    - target: {fileID: 4059375353879452966, guid: 72f72d6e52f63ae4a970197d27ed4b92,
+        type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 845281278}
     - target: {fileID: 7140755475213896923, guid: 72f72d6e52f63ae4a970197d27ed4b92,
         type: 3}
       propertyPath: m_IsActive
