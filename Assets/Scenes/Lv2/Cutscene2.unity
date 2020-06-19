@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 317, y: 634}
+  m_AnchoredPosition: {x: 0, y: 0.000030518}
+  m_SizeDelta: {x: 800, y: 1600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &220531893
 MonoBehaviour:
@@ -470,17 +470,17 @@ PrefabInstance:
     - target: {fileID: 5744725086835891363, guid: d6f59bc992b5dc440ba0f849c0feb1d6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00014877
+      value: 0.000030518
       objectReference: {fileID: 0}
     - target: {fileID: 5744725086835891363, guid: d6f59bc992b5dc440ba0f849c0feb1d6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 3234.0894
+      value: 8161.743
       objectReference: {fileID: 0}
     - target: {fileID: 5744725086835891363, guid: d6f59bc992b5dc440ba0f849c0feb1d6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1830.231
+      value: 4618.8896
       objectReference: {fileID: 0}
     - target: {fileID: 5744725086835891363, guid: d6f59bc992b5dc440ba0f849c0feb1d6,
         type: 3}
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -838,8 +838,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: TAP TO SKIP
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 826f4cd386d819244a151dc8acf05522, type: 2}
-  m_sharedMaterial: {fileID: 8827236921244947, guid: 826f4cd386d819244a151dc8acf05522,
+  m_fontAsset: {fileID: 11400000, guid: ec8c0dc4d76af784fbc9f069c729cda9, type: 2}
+  m_sharedMaterial: {fileID: 8827236921244947, guid: ec8c0dc4d76af784fbc9f069c729cda9,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -865,8 +865,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

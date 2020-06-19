@@ -7,13 +7,13 @@ public class playerController : MonoBehaviour
     #region Player Attributes
     [Header("Player Attributes")]
     [SerializeField]
-    private float moveSpeed; //Determines how fast the player autoruns
+    private float moveSpeed = 10; //Determines how fast the player autoruns
     private float jumpForce; //Determines how high the player jumps
     [SerializeField]
-    private float rollTime;
+    private float rollTime = 1;
     private bool rollCool;
     [SerializeField]
-    private float fallMultiplier;
+    private float fallMultiplier = 2.5f;
     private Vector2 spawnPos;
     [SerializeField]
     private crashHandler cH;
@@ -65,8 +65,7 @@ public class playerController : MonoBehaviour
         transform.position = spawnPos;
         jumpForce = CalculateJumpForce(Physics2D.gravity.magnitude, 30f);
         music.gameObject.SetActive(false);
-        //StartCoroutine(Go());
-        Run();
+        StartCoroutine(Go());
     }
 
     private void FixedUpdate()
@@ -120,14 +119,13 @@ public class playerController : MonoBehaviour
         {
             if (Input.touchCount > 0) //If the screen is touched while the Player is running
             {
-                if (Input.GetTouch(0).phase == TouchPhase.Ended && Swipe.Swiped == false && rollCool == false) //If it is a tap we move on (Not a swipe or a hold)
+                if (Input.GetTouch(0).phase == TouchPhase.Ended && Swipe.Swiped == false) //If it is a tap we move on (Not a swipe or a hold)
                 {
                     if (onPlatform) //If we're on the ground we jump
                         Jump();
                     else
                     {
                         StartCoroutine(VineAttack()); //If we're in the air we perform a Vine Attack
-                        Debug.Log("Tapped");
                     }
                 }
 
@@ -206,27 +204,26 @@ public class playerController : MonoBehaviour
     IEnumerator Roll()
     {
         invulnerable = true;
-        rollCool = true;
-        cH.GetComponent<BoxCollider2D>().enabled = false;
+        //cH.GetComponent<BoxCollider2D>().enabled = false;
         bc.size = new Vector2(1, 0.35f);
         anim.SetBool("Roll", true);
         yield return new WaitForSeconds(0.2f);
         bc.offset = new Vector2(0, -0.17f);
-        rollCool = false;
         yield return new WaitForSeconds(rollTime);
         //Cast raycast above your head and don't go out of a roll until raycast is clear
         anim.SetBool("Roll", false);
-        cH.GetComponent<BoxCollider2D>().enabled = true;
+        //cH.GetComponent<BoxCollider2D>().enabled = true;
         bc.offset = new Vector2(0, 0.08f);
         bc.size = new Vector2(1, 0.85f);
-        invulnerable = false;
+        Debug.Log("End");
+        if(!dashActive)
+            invulnerable = false;
     }
     #endregion
 
     #region Dash Function
     IEnumerator Dash()
     {
-        StopCoroutine(Roll());
         invulnerable = true;
         transform.position = new Vector3(transform.position.x, transform.position.y + 0.05f, transform.position.z);
         dashActive = true; //Enables dash
@@ -234,6 +231,8 @@ public class playerController : MonoBehaviour
         anim.SetBool("Dash", true);
         rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation; //We freeze the y position so that we remain in the air while dashing
         uiController.DashUse();
+        bc.offset = new Vector2(0, 0.08f);
+        bc.size = new Vector2(1, 0.85f);
         yield return new WaitForSeconds(dashTime); //Determines how long the dash last based on the "dashTime" that we determine in the inspector
         dashActive = false; //Disables the dash
         invulnerable = false;
@@ -247,7 +246,7 @@ public class playerController : MonoBehaviour
     {
         isRunning = false;
         dashActive = false;
-        anim.SetTrigger("Death");
+        anim.SetBool("Death", true);
         dead = true;
         uiController.retryButton.gameObject.SetActive(true);
         music.SetActive(false);

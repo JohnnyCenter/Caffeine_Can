@@ -7,10 +7,17 @@ public class crashHandler : MonoBehaviour
     [SerializeField]
     private playerController Player;
     private bool hit = false;
+    private BoxCollider2D bc;
 
     private void Awake()
     {
         Player = FindObjectOfType<playerController>();
+        bc = GetComponent<BoxCollider2D>();
+    }
+
+    private void Start()
+    {
+        Normal();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -45,5 +52,16 @@ public class crashHandler : MonoBehaviour
         {
                 Player.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y + 1, Player.transform.position.z);
         }
+    }
+
+    public void Normal()
+    {
+        bc.size = new Vector2(0.2f, 0.9f);
+        bc.offset = new Vector2(0.5f, 0);
+    }
+
+    public void Shrink()
+    {
+
     }
 }

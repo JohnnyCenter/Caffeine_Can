@@ -49,7 +49,7 @@ public class tempSceneManager : MonoBehaviour
 
     public void Level4()
     {
-        SceneManager.LoadScene("CutScene3");
+        SceneManager.LoadScene("Lv41");
     }
 
     public void Tutorial()

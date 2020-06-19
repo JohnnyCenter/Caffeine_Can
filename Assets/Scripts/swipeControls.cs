@@ -31,10 +31,8 @@ public class swipeControls : MonoBehaviour
         {
             if (Input.touches[0].phase == TouchPhase.Began)
             {
-                tap = true;
                 touching = true; //Enables the bool "touching" when a touch happens on screen
                 startPos = Input.touches[0].position; //Makes "startPos" the position of the initial touch
-                Invoke("KillTap", tapTime);
             }
             else if (Input.touches[0].phase == TouchPhase.Ended || Input.touches[0].phase == TouchPhase.Canceled)
             {
@@ -56,7 +54,6 @@ public class swipeControls : MonoBehaviour
         #region Deadzone
         if (swipeDelta.magnitude > 50) //Creates a deadzone. The Integer determines the size of our deadzone. The deadzone determines how far we need to drag our finger for a swipe to register
         {
-            swiped = true;
             float x = swipeDelta.x; //Grabs the x position of swipeDelta and names it x
             float y = swipeDelta.y; //Grabs the y position of swipeDelta and names it y
             if (Mathf.Abs(x) > Mathf.Abs(y)) //We use Mathf absolute so that it includes positive and negative numbers. If x is larger than y then it's either a Left or a Right swipe
@@ -75,6 +72,8 @@ public class swipeControls : MonoBehaviour
                 if (y < 0)
                 {
                     swipeDown = true; //We swiped Down
+                    swiped = true;
+                    StartCoroutine(Stop());
                 }
                 else
                 {
@@ -84,8 +83,6 @@ public class swipeControls : MonoBehaviour
 
             Reset(); //After we've done a swipe we reset everything when the finger leaves the screen
         }
-        else
-            swiped = false;
         #endregion
     }
 
@@ -95,8 +92,9 @@ public class swipeControls : MonoBehaviour
         touching = false;
     }
 
-    void KillTap()
+    IEnumerator Stop()
     {
-        tap = false;
+        yield return new WaitForSeconds(0.6f);
+        swiped = false;
     }
 }
