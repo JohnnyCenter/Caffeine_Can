@@ -49,6 +49,8 @@ public class playerController : MonoBehaviour
     public GameObject Point;
     private Vector3 attackPos;
 
+    Vector2 kbDir = new Vector2(-10, 2);
+
     [SerializeField]
     private GameObject music;
 
@@ -204,7 +206,7 @@ public class playerController : MonoBehaviour
     IEnumerator Roll()
     {
         invulnerable = true;
-        //cH.GetComponent<BoxCollider2D>().enabled = false;
+        cH.Shrink();
         bc.size = new Vector2(1, 0.35f);
         anim.SetBool("Roll", true);
         yield return new WaitForSeconds(0.2f);
@@ -212,10 +214,10 @@ public class playerController : MonoBehaviour
         yield return new WaitForSeconds(rollTime);
         //Cast raycast above your head and don't go out of a roll until raycast is clear
         anim.SetBool("Roll", false);
-        //cH.GetComponent<BoxCollider2D>().enabled = true;
+        cH.Normal();
         bc.offset = new Vector2(0, 0.08f);
         bc.size = new Vector2(1, 0.85f);
-        Debug.Log("End");
+        Debug.Log("Finished");
         if(!dashActive)
             invulnerable = false;
     }
@@ -233,6 +235,7 @@ public class playerController : MonoBehaviour
         uiController.DashUse();
         bc.offset = new Vector2(0, 0.08f);
         bc.size = new Vector2(1, 0.85f);
+        cH.Normal();
         yield return new WaitForSeconds(dashTime); //Determines how long the dash last based on the "dashTime" that we determine in the inspector
         dashActive = false; //Disables the dash
         invulnerable = false;
@@ -255,14 +258,21 @@ public class playerController : MonoBehaviour
     [ContextMenu("Crash")]
     public IEnumerator Knockback()
     {
-        //StopAllCoroutines();
         isRunning = false;
-        rb.constraints = RigidbodyConstraints2D.FreezeAll;
-        transform.position = new Vector3(transform.position.x - 4f, transform.position.y, transform.position.z);
-        yield return new WaitForSeconds(0.5f);
-        transform.position = new Vector3(transform.position.x - 3.5f, transform.position.y, transform.position.z);
-        yield return new WaitForSeconds(0.5f);
-        Run();
+        anim.SetBool("Knockback", true);
+        anim.SetTrigger("Knocked");
+        if (onPlatform)
+            rb.AddForce(kbDir * 300);
+        else
+        {
+            rb.AddForce(kbDir * 200);
+        }
+        yield return new WaitForSeconds(1.5f);
+        if (!dead)
+        {
+           anim.SetBool("Knockback", false);
+           Run();
+        }
     }
 
     IEnumerator Go()

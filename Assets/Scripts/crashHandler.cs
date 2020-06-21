@@ -62,6 +62,7 @@ public class crashHandler : MonoBehaviour
 
     public void Shrink()
     {
-
+        bc.size = new Vector2(0.2f, 0.3f);
+        bc.offset = new Vector2(0.5f, -0.25f);
     }
 }

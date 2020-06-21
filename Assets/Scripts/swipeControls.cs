@@ -94,7 +94,7 @@ public class swipeControls : MonoBehaviour
 
     IEnumerator Stop()
     {
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(0.5f);
         swiped = false;
     }
 }
