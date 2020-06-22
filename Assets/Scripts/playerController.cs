@@ -88,7 +88,7 @@ public class playerController : MonoBehaviour
 
         if (attack)
         {
-            transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, transform.position.z), attackPos, 5);
+            rb.velocity = new Vector2(5, 15);
         }
 
         if (rb.velocity.y < 0)
@@ -150,8 +150,13 @@ public class playerController : MonoBehaviour
     {
         anim.SetTrigger("Run");
         isRunning = true; //Sets the bool isRunning true
-        rb.constraints = RigidbodyConstraints2D.None; //Unfreezes all 
-        rb.constraints = RigidbodyConstraints2D.FreezeRotation; //Freezes the rotation so that the player doesn't rotate while running
+        if (!dashActive)
+        {
+            rb.constraints = RigidbodyConstraints2D.None; //Unfreezes all 
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation; //Freezes the rotation so that the player doesn't rotate while running
+        }
+        else
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
     [ContextMenu("Stop")]
@@ -183,19 +188,37 @@ public class playerController : MonoBehaviour
         {
             GameObject target = GameObject.FindWithTag("Active Enemy");
             RaycastHit2D collCheck = Physics2D.Linecast(Point.transform.position, target.transform.position);
+            anim.SetBool("Attack", true);
+            anim.SetInteger("AttackState", 1);
 
             if (collCheck.collider != null)
             {
                 if (collCheck.collider.tag == "Active Enemy")
                 {
-                    attack = true;
+                    invulnerable = true;
                     isRunning = false;
                     attackPos = target.transform.position;
-                    Debug.Log("Somehow this garbage worked");
-                    yield return new WaitForSeconds(0.5f);
-                    attack = false;
+
+                    Vector2 currentPos = transform.position;
+                    var t = 0f;
+                    float timeToMove = 0.25f;
+
+                    while (t < 1)
+                    {
+                        t += Time.deltaTime / timeToMove;
+                        transform.position = Vector2.Lerp(currentPos, attackPos, t);
+                        yield return null;
+                    }
+                    anim.SetInteger("AttackState", 2);
+                    attack = true;
                     isRunning = true;
+                    yield return new WaitForSeconds(0.25f);
+                    invulnerable = false;
+                    attack = false;
+                    anim.SetBool("Attack", false);
                 }
+                else
+                    anim.SetBool("Attack", false);
             }
         }
         yield return null;

@@ -37,6 +37,7 @@ public class pickUp : MonoBehaviour
             cageAnim = other.GetComponent<Animator>();
             cageAnim.SetTrigger("Saved");
             saves += 1;
+            other.transform.tag = "Saved";
 
             FindObjectOfType<audioManager>().Play("freebean");
         }

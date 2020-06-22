@@ -40,11 +40,6 @@ public class Enemy : MonoBehaviour
             {
                 KillEnemy();
             }
-            else if(player.attack)
-            {
-                player.rb.velocity = new Vector2(player.rb.velocity.x, 50);
-                KillEnemy();
-            }
             else
             {
                 player.anim.SetInteger("DeathType", 1);

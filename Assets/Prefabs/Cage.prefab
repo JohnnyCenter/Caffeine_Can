@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 961116085998647822}
   - component: {fileID: 961116085998647823}
   - component: {fileID: 961116085998647821}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cage
   m_TagString: Cage
   m_Icon: {fileID: 0}

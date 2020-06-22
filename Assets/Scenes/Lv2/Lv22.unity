@@ -28561,6 +28561,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cage (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 961116085998647808, guid: 119b8e371c8a21445b2dbf14a2be8b3e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 119b8e371c8a21445b2dbf14a2be8b3e, type: 3}
 --- !u!4 &1694443233 stripped
@@ -28653,6 +28658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cage (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 961116085998647808, guid: 119b8e371c8a21445b2dbf14a2be8b3e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 119b8e371c8a21445b2dbf14a2be8b3e, type: 3}
@@ -29527,6 +29537,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cage
+      objectReference: {fileID: 0}
+    - target: {fileID: 961116085998647808, guid: 119b8e371c8a21445b2dbf14a2be8b3e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 119b8e371c8a21445b2dbf14a2be8b3e, type: 3}

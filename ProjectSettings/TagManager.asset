@@ -12,6 +12,7 @@ TagManager:
   - Ground
   - Active Enemy
   - Range
+  - Saved
   layers:
   - Default
   - TransparentFX
